@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import React from 'react'
+import { Parallax } from 'react-parallax';
+
+import * as pix from './assets/pix'
 import './App.css';
+
+const t = {
+  header: 'Welcome to the 5G Smart Community.' 
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='app'>
+      <Parallax id='parallax' blur={1} bgImage={pix.homeBackground} bgImageAlt='background' strength={250}>
+        <section id='splashTop'>
+          <header id='header'>{t.header}</header>
+          <div id='overlayBar' />
+          <img id='logoWhite' src={pix.logoWhite} />
+        </section>
+      </Parallax>
+        <img id='visionTriangle' src={pix.visionTriangle} />
+    </main>
   );
 }
 
