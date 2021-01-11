@@ -1,0 +1,128 @@
+#splashTop {
+  height: 77vh;
+}
+
+#portalAccess {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  text-decoration: none;
+  color: #301d13;
+  text-transform: uppercase;
+  font-family: 'Futura';
+  background: white;
+  padding: 1rem;
+  border-radius: 3rem;
+  font-size: 1.1rem;
+  filter: drop-shadow(2px 6px 6px #301d13);
+  cursor: pointer;
+}
+
+#portalAccess:hover {
+  transform: scale(1.05);
+}
+
+#portalAccess:active {
+  transform: scale(0.9);
+}
+  
+#homeHeader {
+  font-family: 'Myriad-Pro-Bold';
+  color: #3F2313;
+  filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.392)) drop-shadow(0 0 1px #BA6A29);
+  position: fixed;
+  top: 3rem;
+  left: 19.2vw;
+  font-size: 2.8vmax;
+}
+  
+.react-parallax {
+  filter: drop-shadow(0px 4px 10px #3C291C);
+}
+
+#logoWhite {
+  position: absolute;
+    bottom: -11.9rem;
+    left: -5rem;
+    width: 40rem;
+    filter: drop-shadow(0px 9px 2px black);
+}
+
+#visionTriangle {
+  width: 100%;
+  z-index: -1;
+}
+
+#overlayBar {
+  position: fixed;
+  width: 100%;
+  height: 22%;
+  background: #fadc575e;
+  bottom: 0;
+  border-top: solid white 1px;
+}
+
+#missionStatement {
+  position: absolute;
+  top: 85vh;
+  left: 10vw;
+  width: 40vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#missionStatementText {
+  color: #36211E;
+  font-family: 'Hoefler Text';
+  font-size: 2.9vmax;
+  text-align: center;
+  line-height: 3rem;
+}
+
+#missionStatementUnderlines {
+  margin: 1.5rem auto;
+  width: 80%;
+}
+
+#community {
+  color: #1f590e;
+  text-shadow: 1px 1px 2px #050002;
+}
+
+#portalModal {
+  position: absolute;
+  width: 50vw;
+  height: 25vh;
+  top: 25vh;
+  left: 25vw;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px -4px 19px #130406;
+  z-index: 2;
+}
+
+#portalModal > input {
+  width: 50%;
+  align-self: center;
+  height: 3rem;
+  background: #c9dec7;
+  border: none;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #312808;
+}
+
+#blackBackground {
+  width: 100%;
+  height: 77vh;
+  position: absolute;
+  background: #000000bd;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

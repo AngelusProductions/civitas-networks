@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Myriad-Pro';
+  src: local('Myriad-Pro'), url(../../assets/fonts/Myriad-Pro.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad-Pro-Bold';
+  src: local('Myriad-Pro-Bold'), url(../../assets/fonts/Myriad-Pro-Bold.woff) format('woff');
+}
+
+html, body {
+  height: 100%;
+} 
+
+body {
+  margin: 0;
+}
