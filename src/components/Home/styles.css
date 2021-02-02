@@ -1,5 +1,5 @@
 #splashTop {
-  height: 77vh;
+  height: 100vh;
 }
 
 #portalAccess {
@@ -64,7 +64,7 @@
 
 #missionStatement {
   position: absolute;
-  top: 85vh;
+  top: 110vh;
   left: 10vw;
   width: 40vw;
   text-align: center;
@@ -125,4 +125,59 @@
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+#contactInfo {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Hoefler Text';
+  font-size: 3vmax;
+  position: absolute;
+  bottom: -42vh;
+  left: -10vw;
+  width: 50vw;
+  margin-left: 5rem;
+  text-align: center;
+}
+
+#contactInfo a {
+  text-decoration: none;
+    color: white;
+    background: #39b315;
+    padding: 1.5rem;
+    position: absolute;
+    left: 29vw;
+    top: 4vh;
+    text-shadow: 0px 2px 2px #36211f;
+    filter: drop-shadow(4px 7px 4px #36211fd0);
+}
+#contactInfo a:hover {
+  color: #36211f;
+  background: #ffe54b;
+}
+
+#contactInfo a:active {
+  transform: scale3D(0.9);
+}
+
+#contactText1 {
+  position: absolute;
+  top: -11vh;
+  color: #36211E;
+}
+
+#contactText2 {
+  position: absolute;
+  font-size: 2.9vmax;
+  left: 8vw;
+  color: #831a1a;
+  top: -3vh;
+}
+
+#arrowRight {
+  position: absolute;
+  left: 18vw;
+  top: 2vh;
+  width: 10vw;
+  filter: hue-rotate(188deg);
 }
