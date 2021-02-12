@@ -29,7 +29,7 @@
 #navBar a:hover {
   background: #2f2d29;
   width: 15rem;
-  box-shadow: -2px 2px 7px #f9b914;
+  box-shadow: 2px -2px 7px #f9b914;
 }
 
 #navBar a:active {

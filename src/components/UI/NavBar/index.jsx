@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.css'
 
-import { paths } from '../../constants'
+import { paths } from '../../../constants'
 
 const t = {
     home: 'Home',

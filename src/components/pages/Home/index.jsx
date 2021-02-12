@@ -5,8 +5,8 @@ import { withRouter } from "react-router";
 
 import './styles.css'
 
-import * as pix from '../../assets/pix'
-import { paths, portalPwd } from '../../constants'
+import * as pix from '../../../assets/pix'
+import { paths, portalPwd } from '../../../constants'
 
 const t = {
     header: 'Welcome to the 5G Smart Community.',
@@ -59,15 +59,15 @@ const Home = ({ history }) => {
                     <header id='homeHeader'>{t.header}</header>
                     <div id='overlayBar' />
                     <img id='logoWhite' src={pix.logoWhite} />
-                    {/* <span 
+                    <span 
                         id='portalAccess'
                         onClick={() => setIsPortalModalOpen(true)}
                     >
                         {t.portal}
-                    </span> */}
+                    </span>
                 </section>
             </Parallax>
-            {/* {isPortalModalOpen && (
+            {isPortalModalOpen && (
                 <>
                     <div id='blackBackground' />
                     <div id='portalModal'>
@@ -86,7 +86,7 @@ const Home = ({ history }) => {
                         </section>
                     </div>
                 </>
-            )} */}
+            )}
 
             <section id='missionStatement'>
                 <div id='missionStatementText'>
@@ -98,7 +98,7 @@ const Home = ({ history }) => {
                 <div id='contactInfo'>
                     <span id='contactText1'>{t.contactText1}</span>
                     <span id='contactText2'>{t.contactText2}</span>
-                    <img id='arrowRight' src={pix.arrowRight} />
+                    <img id='arrowRight' src={pix.arrowRight}/>
                     <a href={`mailto: ${t.contactEmail}`}>{t.contactEmail}</a>
                 </div>
             </section>

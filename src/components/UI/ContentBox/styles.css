@@ -1,0 +1,28 @@
+.content-box-section {
+    line-height: 1.7rem;
+    padding: 2rem;
+}
+
+.content-box-section h2 {
+    margin: 1rem;
+}
+
+.content-box-section:nth-child(even) h2 {
+    float: left;
+}
+.content-box-section:nth-child(odd) h2 {
+    float: right;
+}
+
+.content-box-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    color: #550034;
+    padding: 1rem;
+    width: fit-content;
+    text-shadow: 1px 1px 3px #31f7b5;
+}
+
+.content-box-content {
+
+}

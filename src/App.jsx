@@ -1,11 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 
-import Layout from './components/Layout'
-import Home from './components/Home'
-import Vision from './components/Vision'
-import Contact from './components/Contact'
-import Portal from './components/Portal'
+import Layout from './components/UI/Layout'
+import Home from './components/pages/Home'
+import Vision from './components/pages/Vision'
+import Contact from './components/pages/Contact'
+import Portal from './components/pages/Portal'
+
 
 import { paths } from './constants'
 
