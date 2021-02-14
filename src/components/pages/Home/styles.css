@@ -70,6 +70,9 @@
   justify-content: space-evenly;
   align-items: center;
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(21,9,56,1) 100%);
+  border-bottom: 1px solid #f4f0fff5;
+  box-shadow: inset 0px -4px 8px 4px #1509382e;
+  min-height: 207px;
 }
 
 .underlay-pic {
@@ -78,6 +81,17 @@
   padding: 1rem;
   border: 1px solid white;
   border-radius: 50%;
+  filter: drop-shadow(0px 6px 6px #150938);
+}
+
+.underlay-text {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 1.9rem;
+  text-align: center;
+  width: 10%;
+  line-height: 29px;
+  text-shadow: 1px 1px 2px #150938;
 }
 
 #missionStatement {

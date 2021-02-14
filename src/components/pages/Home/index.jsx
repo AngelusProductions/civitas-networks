@@ -23,7 +23,11 @@ const t = {
     placeholder: 'enter password here',
     contactText1: 'For more information,', 
     contactText2: 'click the email below to contact us',
-    contactEmail: 'info@civitasnetworks.com'
+    contactEmail: 'info@civitasnetworks.com',
+    underlay1: 'Highly Secure Hyper-Local Data',
+    underlay2: 'Smarter Systems & Sensors',
+    underlay3: 'Increased Government Effeciency',
+    underlay4: 'Improved Quality of Life'
 }
 
 const Home = ({ history }) => {
@@ -68,12 +72,16 @@ const Home = ({ history }) => {
                 </section>
             </Parallax>
             <div id='underlayBar'>
-                <img id='fiveGBeachPic' className='underlay-pic' src={pix.fiveGBeachPic} />
-                <img id='fiveGCityDishHand' className='underlay-pic' src={pix.fiveGCityDishHand} />
-                <img id='worldInHands' className='underlay-pic' src={pix.worldInHands} />
-                <img id='handMap3' className='underlay-pic' src={pix.handMap3} />
-                <img id='handLaptop' className='underlay-pic' src={pix.handLaptop} />
-            </div>
+                <img className='underlay-pic' src={pix.fiveGBeachPic} />
+                <span className='underlay-text'>{t.underlay1}</span>
+                <img className='underlay-pic' src={pix.fiveGCityDishHand} />
+                <span className='underlay-text'>{t.underlay2}</span>
+                <img className='underlay-pic' src={pix.worldInHands} />
+                <span className='underlay-text'>{t.underlay3}</span>
+                <img className='underlay-pic' src={pix.handMap3} />
+                <span className='underlay-text'>{t.underlay4}</span>
+                <img className='underlay-pic' src={pix.handPlant} />
+            </div>  
             {isPortalModalOpen && (
                 <>
                     <div id='blackBackground' />
