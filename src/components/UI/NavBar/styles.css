@@ -19,10 +19,9 @@
   color: white;
   background: #ffffff45;
   box-shadow: inset 0px 0px 10px 9px #30274fc2;
-  width: 11rem;
+  width: 10rem;
   transition-duration: 75ms;
   text-shadow: 2px 3px 3px #1a0f40;
-  text-transform: uppercase;
   border-radius: 3px;
 }
 
