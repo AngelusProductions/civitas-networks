@@ -9,7 +9,7 @@ import * as pix from '../../../assets/pix'
 import { paths, portalPwd } from '../../../constants'
 
 const t = {
-    header: 'Welcome to the 5G Smart Community.',
+    header: 'The 5G network designed to meet the needs of your community.',
     mission1: 'Civitas',
     mission2: 'disrupts the traditional telecom model',
     mission3: 'by creating a smart town/municipal system producing hyper-local data',
@@ -51,22 +51,29 @@ const Home = ({ history }) => {
             <Parallax 
                 id='parallax' 
                 blur={1} 
-                bgImage={pix.homeBackground} 
+                bgImage={pix.handSillhouette} 
                 bgImageAlt='background' 
-                strength={250}
+                strength={750}
             >
                 <section id='splashTop'>
                     <header id='homeHeader'>{t.header}</header>
-                    <div id='overlayBar' />
-                    <img id='logoWhite' src={pix.logoWhite} />
-                    <span 
+                    {/* <img id='logoWhite' src={pix.logoWhite} /> */}
+                    <img id='logoBlack' src={pix.logoBlack} />
+                    {/* <span 
                         id='portalAccess'
                         onClick={() => setIsPortalModalOpen(true)}
-                    >
+                        >
                         {t.portal}
-                    </span>
+                    </span> */}
                 </section>
             </Parallax>
+            <div id='underlayBar'>
+                <img id='fiveGBeachPic' className='underlay-pic' src={pix.fiveGBeachPic} />
+                <img id='fiveGCityDishHand' className='underlay-pic' src={pix.fiveGCityDishHand} />
+                <img id='worldInHands' className='underlay-pic' src={pix.worldInHands} />
+                <img id='handMap3' className='underlay-pic' src={pix.handMap3} />
+                <img id='handLaptop' className='underlay-pic' src={pix.handLaptop} />
+            </div>
             {isPortalModalOpen && (
                 <>
                     <div id='blackBackground' />
@@ -102,7 +109,7 @@ const Home = ({ history }) => {
                     <a href={`mailto: ${t.contactEmail}`}>{t.contactEmail}</a>
                 </div>
             </section>
-            <img id='visionTriangle' src={pix.visionTriangle} />
+            {/* <img id='visionTriangle' src={pix.visionTriangle} /> */}
         </main>
     )
 }

@@ -3,33 +3,32 @@
   z-index: 1;
   right: 0;
   display: flex;
-  flex-direction: column;
   margin-top: 2vh;
+  margin-right: 1vw;
   font-family: 'Myriad-Pro-Bold';
   text-align: center;
-  height: 15vh;
-  justify-content: space-between;
-  text-transform: capitalize;
-  letter-spacing: 3px;
-  font-size: 1.2vmax;
-  min-height: 150px;
+  justify-content: space-around;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  width: 38rem;
 }
 
 #navBar a {
   padding: 0.8rem 0.4rem 0.6rem;
   text-decoration: none;
   color: white;
-  background: #2f2d29c7;
-  box-shadow: 2px 2px 2px #ffffffbd;
+  background: #ffffff45;
+  box-shadow: inset 0px 0px 10px 9px #30274fc2;
   width: 10rem;
-  place-self: flex-end;
   transition-duration: 75ms;
+  text-shadow: 2px 3px 3px #1a0f40;
+  border-radius: 3px;
 }
 
 #navBar a:hover {
-  background: #2f2d29;
+  background: #150938ed;
   width: 15rem;
-  box-shadow: 2px -2px 7px #f9b914;
+  box-shadow: inset 1px 0px 11px 2px #5C28FA;
 }
 
 #navBar a:active {

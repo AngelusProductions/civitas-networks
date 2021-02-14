@@ -1,11 +1,12 @@
 .content-box-section {
     line-height: 1.7rem;
     padding: 2rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .content-box-section h2 {
     margin: 1rem;
-}
+} 
 
 .content-box-section:nth-child(even) h2 {
     float: left;
@@ -24,5 +25,9 @@
 }
 
 .content-box-content {
-
+    color: #550034;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin: auto;
+    padding: 1rem 3rem;
 }

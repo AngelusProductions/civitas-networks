@@ -1,13 +1,125 @@
-import homeBackground from './background.png'
-import logoWhite from './logoWhite.png'
-import visionTriangle from './visionTriangle.png'
-import underlines from './underlines.png'
 import arrowRight from './arrowRight.png'
+import blurryIntersection1 from './blurryIntersection1.png'
+import blurryIntersection2 from './blurryIntersection2.png'
+import blurryIntersection3 from './blurryIntersection3.png'
+import blurryIntersection4 from './blurryIntersection4.png'
+import blurryIntersection5 from './blurryIntersection5.png'
+import blurryIntersection6 from './blurryIntersection6.png'
+import blurryIntersection7 from './blurryIntersection7.png'
+import blurryIntersection8 from './blurryIntersection8.png'
+import blurryIntersection9 from './blurryIntersection9.png'
+import cityCenterSunny from './cityCenterSunny.png'
+import cityCenterMan from './cityCenterMan.png'
+import cityCenterWoman from './cityCenterWoman.png'
+import cityEagleView from './cityEagleView.png'
+import cityObelisk from './cityObelisk.png'
+import communityDefinition from './communityDefinition.png'
+import constructionCrew from './constructionCrew.png'
+import farmFamily from './farmFamily.png'
+import fireworks from './fireworks.png'
+import fisheyeTownCenter1 from './fisheyeTownCenter1.png'
+import fisheyeTownCenter2 from './fisheyeTownCenter2.png'
+import fiveGBeachPic from './fiveGBeachPic.png'
+import fiveGChalkboard from './fiveGChalkboard.png'
+import fiveGCityDish from './fiveGCityDish.png'
+import fiveGCityDishHand from './fiveGCityDishHand.png'
+import fiveGLightbulb from './fiveGLightbulb.png'
+import fiveGOk from './fiveGOk.png'
+import fiveGScrabble from './fiveGScrabble.png'
+import fiveGSkySignal from './fiveGSkySignal.png'
+import greenTown from './greenTown.png'
+import handBarley from './handBarley.png'
+import handButton from './handButton.png'
+import handLaptop from './handLaptop.png'
+import handMap1 from './handMap1.png'
+import handMap2 from './handMap2.png'
+import handMap3 from './handMap3.png'
+import handPlant from './handPlant.png'
+import handsPickingBerries from './handsPickingBerries.png'
+import handSillhouette from './handSillhouette.png'
+import handSillhouetteCropped from './handSillhouetteCropped.png'
+import homeBackground from './homeBackground.png'
+import iPhonePicnic from './iPhonePicnic.png'
+import ladyCrossing from './ladyCrossing.png'
+import logoWhite from './logoWhite.png'
+import logoBlack from './logoBlack.png'
+import niceWalkway from './niceWalkway.png'
+import nightStation from './nightStation.png'
+import nuts from './nuts.png'
+import okCrosswalk from './okCrosswalk.png'
+import okStation from './okStation.png'
+import pastureGraveyard from './pastureGraveyard.png'
+import plants1 from './plants1.png'
+import plants2 from './plants2.png'
+import plants3 from './plants3.png'
+import solarRoof from './solarRoof.png'
+import thumbtackWeb from './thumbtackWeb.png'
+import townOverhead from './townOverhead.png'
+import trafficLight from './trafficLight.png'
+import underlines from './underlines.png'
+import visionTriangle from './visionTriangle.png'
+import worldInHands from './worldInHands.png'
 
 export {
+    arrowRight,
+    blurryIntersection1,
+    blurryIntersection2,
+    blurryIntersection3,
+    blurryIntersection4,
+    blurryIntersection5,
+    blurryIntersection6,
+    blurryIntersection7,
+    blurryIntersection8,
+    blurryIntersection9,
+    cityCenterSunny,
+    cityCenterMan,
+    cityCenterWoman,
+    cityEagleView,
+    cityObelisk,
+    communityDefinition,
+    constructionCrew,
+    farmFamily,
+    fireworks,
+    fisheyeTownCenter1,
+    fisheyeTownCenter2,
+    fiveGBeachPic,
+    fiveGChalkboard,
+    fiveGCityDish,
+    fiveGCityDishHand,
+    fiveGLightbulb,
+    fiveGOk,
+    fiveGScrabble,
+    fiveGSkySignal,
+    greenTown,
+    handBarley,
+    handButton,
+    handLaptop,
+    handMap1,
+    handMap2,
+    handMap3,
+    handPlant,
+    handsPickingBerries,
+    handSillhouette,
+    handSillhouetteCropped,
     homeBackground,
+    iPhonePicnic,
+    ladyCrossing,
     logoWhite,
-    visionTriangle,
+    logoBlack,
+    niceWalkway,
+    nightStation,
+    nuts,
+    okCrosswalk,
+    okStation,
+    pastureGraveyard,
+    plants1,
+    plants2,
+    plants3,
+    solarRoof,
+    thumbtackWeb,
+    townOverhead,
+    trafficLight,
     underlines,
-    arrowRight
+    visionTriangle,
+    worldInHands
 }

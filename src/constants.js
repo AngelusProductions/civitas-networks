@@ -12,19 +12,23 @@ export const contentBoxes = {
         {
             id: 'about',
             title: 'About',
-            content: `Civitas Networks is a Private Networks Company that designs, finances, and operates complete
-            private wireless networks directly to the community, designed from the ground up to be
-            optimally suited to its needs. This precise solution brings new services that increase community
-            revenue without any significant capital outlay. Civitas manages all aspects of the project
-            making it easy for the community to get the system up and running quickly. We manage
-            design, construction, and operation.`
+            content: [
+                `Civitas Networks is a Private Networks Company that designs, finances, and operates complete
+                private wireless networks directly to the community, designed from the ground up to be
+                optimally suited to its needs. This precise solution brings new services that increase community
+                revenue without any significant capital outlay. Civitas manages all aspects of the project
+                making it easy for the community to get the system up and running quickly. We manage
+                design, construction, and operation.`
+            ]
         },
         {
             id: 'whoWeAre',
             title: 'Who We Are',
-            content: `The Civitas Team is one of the most experienced in the wireless telecom industry. Our leaders
-            all have more than 25 years of experience in their role and have touched every part of a system
-            many times over, ensuring quicker time to market, high performance, and lower cost.`
+            content: [
+                `The Civitas Team is one of the most experienced in the wireless telecom industry. Our leaders
+                all have more than 25 years of experience in their role and have touched every part of a system
+                many times over, ensuring quicker time to market, high performance, and lower cost.`
+            ]
         },
         {
             id: 'missionPhilosophy',
@@ -141,37 +145,37 @@ export const contentBoxes = {
             attempts at financing the next generation of Cyber-physical infrastructure, diving
             meaningful impact with stakeholders, and materially enhancing quality of services, life
             and ultimately, the resilience of the host community.`
-        },
-        {
-            id: 'esg',
-            title: 'ESG',
-            content: `Environmental, Social and Governance factors include ethical, sustainable and
-            corporate government issues to ensure accountability and managing the corporation’s
-            carbon footprint. Civitas will work closely with municipalities to ensure all parties achieve
-            the highest possible standards for measuring these factors.
-            ESG’s three central factors are:
-            Environmental criteria, which examines how a business performs as a steward of our
-            natural environment, focusing on:
-             waste and pollution
-             resource depletion
-             greenhouse gas emission
-             deforestation
-             climate change
-            Social criteria, which looks at how the company treats people, and concentrates on:
-             employee relations &amp; diversity
-             working conditions, including child labor and slavery
-             local communities; seeks explicitly to fund projects or institutions that will serve
-            poor and underserved communities globally
-             health and safety
-             conflict
-            Governance criteria, which examines how a corporation polices itself – how the
-            company is governed, and focuses on:
-             tax strategy
-             executive remuneration
-             donations and political lobbying
-             corruption and bribery
-             board diversity and structure`
         }
+        // {
+        //     id: 'esg',
+        //     title: 'ESG',
+        //     content: `Environmental, Social and Governance factors include ethical, sustainable and
+        //     corporate government issues to ensure accountability and managing the corporation’s
+        //     carbon footprint. Civitas will work closely with municipalities to ensure all parties achieve
+        //     the highest possible standards for measuring these factors.
+        //     ESG’s three central factors are:
+        //     Environmental criteria, which examines how a business performs as a steward of our
+        //     natural environment, focusing on:
+        //      waste and pollution
+        //      resource depletion
+        //      greenhouse gas emission
+        //      deforestation
+        //      climate change
+        //     Social criteria, which looks at how the company treats people, and concentrates on:
+        //      employee relations &amp; diversity
+        //      working conditions, including child labor and slavery
+        //      local communities; seeks explicitly to fund projects or institutions that will serve
+        //     poor and underserved communities globally
+        //      health and safety
+        //      conflict
+        //     Governance criteria, which examines how a corporation polices itself – how the
+        //     company is governed, and focuses on:
+        //      tax strategy
+        //      executive remuneration
+        //      donations and political lobbying
+        //      corruption and bribery
+        //      board diversity and structure`
+        // }
     ],
     contact: [
 
