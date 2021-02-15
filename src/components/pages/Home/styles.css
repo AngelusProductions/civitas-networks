@@ -101,7 +101,7 @@
 #missionStatement {
   position: absolute;
   top: calc(100vh + 12rem);
-  left: 10vw;
+  left: 21rem;
   width: 55rem;
   text-align: center;
   display: flex;
@@ -110,7 +110,7 @@
 
 #whoWeAre {
   position: absolute;
-  left: -11rem;
+  left: -18rem;
   top: -9rem;
   font-size: 4rem;
   color: #150938;
@@ -126,6 +126,14 @@
   font-family: 'Myriad-Pro';
 }
 
+#treeVectors {
+  position: absolute;
+  width: 17rem;
+  left: -18rem;
+  bottom: 1rem;
+  filter: opacity(0.1);
+}
+
 .about-pix {
   position: absolute;
   border: 1px solid #150938;
@@ -136,22 +144,22 @@
 
 #cityObelisk {
   width: 41rem;
-  right: 3rem;
-  bottom: -43rem;
+  right: -58rem;
+  bottom: -1rem;
   z-index: 1;
 }
 
 #blurryIntersection1 {
   width: 27rem;
-  left: 84rem;
-  bottom: -37rem;
+  left: 65rem;
+  bottom: 5rem;
   z-index: 2;
 }
 
 #niceWalkway {
   width: 15rem;
-  left: 79rem;
-  bottom: -32rem;
+  left: 59rem;
+  bottom: 11rem;
   z-index: 3;
 }
 

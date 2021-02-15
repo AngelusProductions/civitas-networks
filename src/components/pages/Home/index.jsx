@@ -105,27 +105,27 @@ const Home = ({ history }) => {
 
             <section id='missionStatement'>
                 <h2 id='whoWeAre'>{t.whoWeAre}</h2>
+                {/* <img id='fiveGVector' src={pix.fiveGVector} /> */}
+                <img id='treeVectors' src={pix.treeVectors} />
                 <div id='missionStatementText'>
                     <b className='myriad-bold'>{t.mission1}</b> {t.mission2}
                     <br/><br/>{t.mission3}<br/><br/>
                     {t.mission4} <span id='community' className='myriad-bold'>{t.mission5}</span>
                 </div>
                 <img id='missionStatementUnderlines' src={pix.underlines} />
-                {/* <div id='contactInfo'>
-                    <span id='contactText1'>{t.contactText1}</span>
-                    <span id='contactText2'>{t.contactText2}</span>
-                    <img id='arrowRight' src={pix.arrowRight}/>
-                    <a href={`mailto: ${t.contactEmail}`}>{t.contactEmail}</a>
-                </div> */}
+                <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />
+                <img id='blurryIntersection1' className='about-pix' src={pix.blurryIntersection1} />
+                <img id='niceWalkway' className='about-pix' src={pix.niceWalkway} />
             </section>
-            <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />
-            <img id='blurryIntersection1' className='about-pix' src={pix.blurryIntersection1} />
-            <img id='niceWalkway' className='about-pix' src={pix.niceWalkway} />
-
-
 
             {/* <img id='cityBlocksVector' src={pix.cityBlocksVector} /> */}
             {/* <img id='backgroundGradientHome' src={pix.backgroundGradient} /> */}
+            {/* <div id='contactInfo'>
+                <span id='contactText1'>{t.contactText1}</span>
+                <span id='contactText2'>{t.contactText2}</span>
+                <img id='arrowRight' src={pix.arrowRight}/>
+                <a href={`mailto: ${t.contactEmail}`}>{t.contactEmail}</a>
+            </div> */}
         </main>
     )
 }

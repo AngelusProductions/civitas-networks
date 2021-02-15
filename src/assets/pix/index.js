@@ -29,6 +29,7 @@ import fiveGLightbulb from './fiveGLightbulb.png'
 import fiveGOk from './fiveGOk.png'
 import fiveGScrabble from './fiveGScrabble.png'
 import fiveGSkySignal from './fiveGSkySignal.png'
+import fiveGVector from './fiveGVector.png'
 import greenTown from './greenTown.png'
 import handBarley from './handBarley.png'
 import handButton from './handButton.png'
@@ -58,6 +59,7 @@ import solarRoof from './solarRoof.png'
 import thumbtackWeb from './thumbtackWeb.png'
 import townOverhead from './townOverhead.png'
 import trafficLight from './trafficLight.png'
+import treeVectors from './treeVectors.png'
 import underlines from './underlines.png'
 import visionTriangle from './visionTriangle.png'
 import worldInHands from './worldInHands.png'
@@ -94,6 +96,7 @@ export {
     fiveGOk,
     fiveGScrabble,
     fiveGSkySignal,
+    fiveGVector,
     greenTown,
     handBarley,
     handButton,
@@ -123,6 +126,7 @@ export {
     thumbtackWeb,
     townOverhead,
     trafficLight,
+    treeVectors,
     underlines,
     visionTriangle,
     worldInHands
