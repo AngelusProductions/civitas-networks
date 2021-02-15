@@ -1,4 +1,5 @@
 import arrowRight from './arrowRight.png'
+import backgroundGradient from './backgroundGradient.png'
 import blurryIntersection1 from './blurryIntersection1.png'
 import blurryIntersection2 from './blurryIntersection2.png'
 import blurryIntersection3 from './blurryIntersection3.png'
@@ -8,6 +9,7 @@ import blurryIntersection6 from './blurryIntersection6.png'
 import blurryIntersection7 from './blurryIntersection7.png'
 import blurryIntersection8 from './blurryIntersection8.png'
 import blurryIntersection9 from './blurryIntersection9.png'
+import cityBlocksVector from './cityBlocksVector.png'
 import cityCenterSunny from './cityCenterSunny.png'
 import cityCenterMan from './cityCenterMan.png'
 import cityCenterWoman from './cityCenterWoman.png'
@@ -62,6 +64,7 @@ import worldInHands from './worldInHands.png'
 
 export {
     arrowRight,
+    backgroundGradient,
     blurryIntersection1,
     blurryIntersection2,
     blurryIntersection3,
@@ -71,6 +74,7 @@ export {
     blurryIntersection7,
     blurryIntersection8,
     blurryIntersection9,
+    cityBlocksVector,
     cityCenterSunny,
     cityCenterMan,
     cityCenterWoman,
