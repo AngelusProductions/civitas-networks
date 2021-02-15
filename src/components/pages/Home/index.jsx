@@ -14,7 +14,7 @@ const t = {
     mission2: 'is a Private Networks Company that designs, finances, & operates',
     mission3: 'complete, private wireless networks',
     mission4: 'finetuned',
-    mission5: 'for your community\'s 5G ambitions.',
+    mission5: 'to your community\'s 5G ambitions.',
     portal: 'Portal Access',
     pwdPrompt: 'Please enter the Civitas Secure password to proceed.',
     submit: 'Submit',
