@@ -100,7 +100,7 @@
 
 #missionStatement {
   position: absolute;
-  top: calc(100vh + 6rem);
+  top: calc(100vh + 12rem);
   left: 10vw;
   width: 55rem;
   text-align: center;
@@ -108,11 +108,21 @@
   flex-direction: column;
 }
 
+#whoWeAre {
+  position: absolute;
+  left: -11rem;
+  top: -9rem;
+  font-size: 4rem;
+  color: #150938;
+  border-bottom: 3px double #150938;
+  filter: drop-shadow(-3px 3px 3px #15093869);
+}
+
 #missionStatementText {
   color: #36211E;
   font-size: 3.4rem;
   text-align: center;
-  line-height: 3.7rem;
+  line-height: 3.4rem;
   font-family: 'Myriad-Pro';
 }
 
@@ -134,14 +144,14 @@
 #blurryIntersection1 {
   width: 27rem;
   left: 84rem;
-  bottom: -44rem;
+  bottom: -37rem;
   z-index: 2;
 }
 
 #niceWalkway {
   width: 15rem;
   left: 79rem;
-  bottom: -46rem;
+  bottom: -32rem;
   z-index: 3;
 }
 
@@ -150,7 +160,7 @@
 }
 
 #missionStatementUnderlines {
-  margin: 4rem auto;
+  margin: 2rem auto;
   width: 55%;
 }
 
@@ -195,8 +205,6 @@
   left: 0;
   z-index: 1;
 }
-
-
 
 #contactInfo {
   display: flex;

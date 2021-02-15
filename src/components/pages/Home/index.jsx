@@ -13,8 +13,8 @@ const t = {
     mission1: 'Civitas',
     mission2: 'is a Private Networks Company that designs, finances, & operates',
     mission3: 'complete, private wireless networks',
-    mission4: 'finetuned',
-    mission5: 'to your community\'s 5G ambitions.',
+    mission4: 'finetuned to',
+    mission5: 'your community\'s 5G ambitions.',
     portal: 'Portal Access',
     pwdPrompt: 'Please enter the Civitas Secure password to proceed.',
     submit: 'Submit',
@@ -27,7 +27,8 @@ const t = {
     underlay1: 'Highly Secure Hyper-Local Data',
     underlay2: 'Smarter Systems & Sensors',
     underlay3: 'Increased Government Effeciency',
-    underlay4: 'Improved Quality of Life'
+    underlay4: 'Improved Quality of Life',
+    whoWeAre: 'Who We Are'
 }
 
 const Home = ({ history }) => {
@@ -103,22 +104,25 @@ const Home = ({ history }) => {
             )}
 
             <section id='missionStatement'>
+                <h2 id='whoWeAre'>{t.whoWeAre}</h2>
                 <div id='missionStatementText'>
                     <b className='myriad-bold'>{t.mission1}</b> {t.mission2}
                     <br/><br/>{t.mission3}<br/><br/>
                     {t.mission4} <span id='community' className='myriad-bold'>{t.mission5}</span>
                 </div>
                 <img id='missionStatementUnderlines' src={pix.underlines} />
-                <div id='contactInfo'>
+                {/* <div id='contactInfo'>
                     <span id='contactText1'>{t.contactText1}</span>
                     <span id='contactText2'>{t.contactText2}</span>
                     <img id='arrowRight' src={pix.arrowRight}/>
                     <a href={`mailto: ${t.contactEmail}`}>{t.contactEmail}</a>
-                </div>
+                </div> */}
             </section>
             <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />
             <img id='blurryIntersection1' className='about-pix' src={pix.blurryIntersection1} />
             <img id='niceWalkway' className='about-pix' src={pix.niceWalkway} />
+
+
 
             {/* <img id='cityBlocksVector' src={pix.cityBlocksVector} /> */}
             {/* <img id='backgroundGradientHome' src={pix.backgroundGradient} /> */}
