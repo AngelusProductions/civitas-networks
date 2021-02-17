@@ -9,6 +9,8 @@ import blurryIntersection6 from './blurryIntersection6.png'
 import blurryIntersection7 from './blurryIntersection7.png'
 import blurryIntersection8 from './blurryIntersection8.png'
 import blurryIntersection9 from './blurryIntersection9.png'
+import blurryIntersection10 from './blurryIntersection10.png'
+import blurryIntersection11 from './blurryIntersection10.png'
 import cityBlocksVector from './cityBlocksVector.png'
 import cityCenterSunny from './cityCenterSunny.png'
 import cityCenterMan from './cityCenterMan.png'
@@ -46,7 +48,7 @@ import iPhonePicnic from './iPhonePicnic.png'
 import ladyCrossing from './ladyCrossing.png'
 import logoWhite from './logoWhite.png'
 import logoBlack from './logoBlack.png'
-import mainStreet from "mainStreet.jpg";
+import mainStreet from './mainStreet.jpg'
 import niceWalkway from './niceWalkway.png'
 import nightStation from './nightStation.png'
 import nuts from './nuts.png'
@@ -77,6 +79,8 @@ export {
     blurryIntersection7,
     blurryIntersection8,
     blurryIntersection9,
+    blurryIntersection10,
+    blurryIntersection11,
     cityBlocksVector,
     cityCenterSunny,
     cityCenterMan,

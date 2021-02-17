@@ -9,7 +9,7 @@ import * as pix from '../../../assets/pix'
 import { paths, portalPwd } from '../../../constants'
 
 const t = {
-    header: 'The 5G network designed to meet the needs of your community.',
+    header: 'A 5G network designed to meet the needs of your community.',
     mission1: 'Civitas',
     mission2: 'is a Private Networks Company that designs, finances, & operates',
     mission3: 'complete, private wireless networks',
@@ -56,9 +56,9 @@ const Home = ({ history }) => {
             <Parallax 
                 id='parallax' 
                 blur={1} 
-                bgImage={pix.mainStreet} 
+                bgImage={pix.blurryIntersection11} 
                 bgImageAlt='background' 
-                strength={750}
+                strength={250}
             >
                 <section id='splashTop'>
                     <header id='homeHeader'>{t.header}</header>
