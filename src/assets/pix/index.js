@@ -46,6 +46,7 @@ import iPhonePicnic from './iPhonePicnic.png'
 import ladyCrossing from './ladyCrossing.png'
 import logoWhite from './logoWhite.png'
 import logoBlack from './logoBlack.png'
+import mainStreet from "mainStreet.jpg";
 import niceWalkway from './niceWalkway.png'
 import nightStation from './nightStation.png'
 import nuts from './nuts.png'
@@ -113,6 +114,7 @@ export {
     ladyCrossing,
     logoWhite,
     logoBlack,
+    mainStreet,
     niceWalkway,
     nightStation,
     nuts,

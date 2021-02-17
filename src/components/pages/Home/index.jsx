@@ -14,7 +14,7 @@ const t = {
     mission2: 'is a Private Networks Company that designs, finances, & operates',
     mission3: 'complete, private wireless networks',
     mission4: 'finetuned to',
-    mission5: 'your community\'s 5G ambitions.',
+    mission5: 'realize your community\'s 5G ambitions.',
     portal: 'Portal Access',
     pwdPrompt: 'Please enter the Civitas Secure password to proceed.',
     submit: 'Submit',
@@ -56,7 +56,7 @@ const Home = ({ history }) => {
             <Parallax 
                 id='parallax' 
                 blur={1} 
-                bgImage={pix.handSillhouette} 
+                bgImage={pix.mainStreet} 
                 bgImageAlt='background' 
                 strength={750}
             >
