@@ -1,0 +1,16 @@
+#visionVector {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    width: 14rem;
+    filter: saturate(1.3);
+}
+
+#visionHeader {
+    color: #150938;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 8rem;
+    font-family: 'Myriad-Pro-Bold';
+    text-decoration: overline;
+}

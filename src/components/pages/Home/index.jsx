@@ -12,9 +12,8 @@ const t = {
     header: 'The 5G network designed to meet the needs of your community.',
     mission1: 'Civitas',
     mission2: 'is a Private Networks Company that designs, finances, & operates',
-    mission3: 'complete, private wireless networks',
-    mission4: 'finetuned to',
-    mission5: 'realize your community\'s 5G ambitions.',
+    mission3: 'self-reliant wireless networks',
+    mission4: 'finetuned to realize your community\'s 5G ambitions.',
     portal: 'Portal Access',
     pwdPrompt: 'Please enter the Civitas Secure password to proceed.',
     submit: 'Submit',
@@ -110,7 +109,7 @@ const Home = ({ history }) => {
                 <div id='missionStatementText'>
                     <b className='myriad-bold'>{t.mission1}</b> {t.mission2}
                     <br/><br/>{t.mission3}<br/><br/>
-                    {t.mission4} <span id='community' className='myriad-bold'>{t.mission5}</span>
+                    <span id='community' className='myriad-bold'>{t.mission4}</span>
                 </div>
                 <img id='missionStatementUnderlines' src={pix.underlines} />
                 <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />

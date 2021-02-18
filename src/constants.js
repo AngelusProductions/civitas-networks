@@ -1,6 +1,7 @@
 export const paths = {
     home: '/',
     vision: '/vision',
+    partners: '/partners',
     contact: '/contact',
     portal: '/portal'
 }
@@ -119,32 +120,7 @@ export const contentBoxes = {
             latest in 5G technology, advanced high efficiency lighting, and environmental sensors with little
             or no community investment. The community will also realize an increase in revenue,
             estimated to be as much as 7-10% year-over-year.
-            Civitas works hand-in-hand with the community to help navigate the entire process. It begins
-            with an analysis of the community’s growth plans, review the technical requirements, and
-            navigate the complex process to get the Smart City technology needed, as a trusted guide
-            through implantation, operation, and maintenance with the host community and its partners.
-            Some of the benefits for the community deploying Civitas – including one or more of the
-            following: latest in 5G technology, advanced high efficiency lighting, and environmental sensors
-            include:
-            1. A critical infrastructure asset that the host community can control and exploit
-            specifically for its unique needs, allowing for tighter control over service delivery
-            roadmaps, deployment schedules, and financial (opex and capex) plans
-            
-            2. On service delivery roadmaps: The host community can elevate its most acute needs
-            and bring every stakeholder that matters into the process
-            
-            3. On deployment roadmap: The host community and its stakeholder partners can,
-            through their participation, be prepared to maximize their opportunity to not only
-            provide input, but, extract value from the Civitas-enabled solutions
-            
-            4. On financial plans: The host community can position the Civitas investment with public
-            and private sector stakeholders to capture maximum support, potential for ROI /impact
-            and optimize access to capital at the lowest possible cost
-            
-            5. In summary, the host community can avoid the pitfalls of most of the recent failed
-            attempts at financing the next generation of Cyber-physical infrastructure, diving
-            meaningful impact with stakeholders, and materially enhancing quality of services, life
-            and ultimately, the resilience of the host community.`
+            `,
         }
         // {
         //     id: 'esg',

@@ -3,6 +3,7 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 import './styles.css'
 
 import { contentBoxes } from '../../../constants'
+import * as pix from '../../../assets/pix'
 
 import ContentBox from '../../UI/ContentBox'
 
@@ -12,8 +13,9 @@ const t = {
 
 const Vision = () =>
     <main id='visionPage'>
-        <h1>{t.header}</h1>
-        <Card>
+        <img id='visionVector' src={pix.fiveGVector} />
+        <h1 id='visionHeader'>{t.header}</h1>
+        {/* <Card>
             <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
             <Card.Content>
                 <Card.Header>Matthew</Card.Header>
@@ -30,7 +32,7 @@ const Vision = () =>
                     22 Friends
                 </a>
             </Card.Content>
-        </Card>
+        </Card> */}
         {contentBoxes.ourVision.map(({ id, title, content }) => 
             <ContentBox key={id} id={id} title={title} content={content} />
         )}
