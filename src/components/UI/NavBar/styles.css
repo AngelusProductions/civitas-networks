@@ -4,8 +4,8 @@
   right: 0;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
-  margin-right: 2rem;
+  top: 2rem;
+  right: 2rem;
   font-family: 'Myriad-Pro-Bold';
   text-align: center;
   justify-content: space-between;
