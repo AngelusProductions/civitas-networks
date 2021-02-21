@@ -111,7 +111,7 @@
 
 #missionStatement {
   display: flex;
-  height: 50vh;
+  height: 33rem;
   justify-content: space-around;
 }
 
@@ -133,9 +133,9 @@
 
 #missionStatementCenter {
   color: #36211E;
-  font-size: 5.6vmin;
+  font-size: 3rem;
   text-align: center;
-  line-height: 82%;
+  line-height: 96%;
   font-family: 'Myriad-Pro';
   width: 50rem;
   display: flex;

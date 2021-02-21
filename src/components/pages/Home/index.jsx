@@ -27,7 +27,10 @@ const t = {
     underlay4: 'Improved Quality of Life',
     whoWeAre: 'Who We Are',
     whatWeDoHeader: 'What We Do',
-    whatWeDoContent: 'Everyone talks about 5G service. Mobile networks claim to offer it to everyone. The government wants to fund deployment. Yet no one has developed a plan for providing such service to the smaller communities throughout the country since it is not a lucrative proposition.  Civitas Networks believes otherwise. It believes all communities should have access to the latest technology and its mission is to focus entirely on those communities being neglected and offer them a unique solution not readily available.'
+    whatWeDoContent: 'Civitas works directly with the community in a Public Private Partnership (PPP) to develop a data delivery system around the community’s Smart City needs, not just the needs of large MNOs.   This private network is then offered directly to its members as a utility, resulting in a system that protects the interests of the community in terms of visibility and services, while increasing municipal revenue and becoming a central element of their Smart City development strategy.',
+    whyWereHereHeader: 'Why We\'re Here',
+    whyWereHereContent1: 'Everyone talks about 5G service. Mobile networks claim to offer it to everyone. The government wants to fund deployment. Yet no one has developed a plan for providing such service to the smaller communities throughout the country since it is not a lucrative proposition.  Civitas Networks believes otherwise. It believes all communities should have access to the latest technology and its mission is to focus entirely on those communities being neglected and offer them a unique solution not readily available.',
+    whyWereHereContent2: 'Civitas Networks is driven by its primary objective of serving the needs of entire communities, not selective enclaves, and to be a completely transparent partner regarding its operations within those communities.'
 }
 
 const Home = ({ history }) => {
@@ -123,8 +126,15 @@ const Home = ({ history }) => {
                 </div>
             </section>
 
-            <section id='philosophy'>
-                {/* <h2 id='whatWeDo' className='home-sub-header'>{t.whatWeDoHeader}</h2> */}
+            <section id='whatWeDo'>
+                <h2 id='whatWeDo' className='home-sub-header'>{t.whatWeDoHeader}</h2>
+                <p id='whatWeDoContent'>{t.whatWeDoContent}</p>
+            </section>
+
+            <section id='whyWereHere'>
+                <h2 id='whyWereHere' className='home-sub-header'>{t.whyWereHereHeader}</h2>
+                <p id='whyWereHereContent1'>{t.whyWereHereContent1}</p>
+                <p id='whyWereHereContent2'>{t.whyWereHereContent2}</p>
             </section>
         </main>
     )
