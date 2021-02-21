@@ -8,7 +8,6 @@ import Contact from './components/pages/Contact'
 import Partners from './components/pages/Partners'
 import Portal from './components/pages/Portal'
 
-
 import { paths } from './constants'
 
 export default () =>

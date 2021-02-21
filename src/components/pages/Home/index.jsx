@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { Parallax } from 'react-parallax'
-import { Link } from 'react-router-dom'
-import { withRouter } from "react-router";
-
+import { withRouter } from "react-router"
 import './styles.css'
 
 import * as pix from '../../../assets/pix'
@@ -27,7 +25,9 @@ const t = {
     underlay2: 'Smarter Systems & Sensors',
     underlay3: 'Increased Government Effeciency',
     underlay4: 'Improved Quality of Life',
-    whoWeAre: 'Who We Are'
+    whoWeAre: 'Who We Are',
+    whatWeDoHeader: 'What We Do',
+    whatWeDoContent: 'Everyone talks about 5G service. Mobile networks claim to offer it to everyone. The government wants to fund deployment. Yet no one has developed a plan for providing such service to the smaller communities throughout the country since it is not a lucrative proposition.  Civitas Networks believes otherwise. It believes all communities should have access to the latest technology and its mission is to focus entirely on those communities being neglected and offer them a unique solution not readily available.'
 }
 
 const Home = ({ history }) => {
@@ -64,8 +64,7 @@ const Home = ({ history }) => {
                     <img id='logoBlack' src={pix.logoBlack} />
                     <span 
                         id='portalAccess'
-                        onClick={() => setIsPortalModalOpen(true)}
-                        >
+                        onClick={() => setIsPortalModalOpen(true)}>
                         {t.portal}
                     </span>
                 </section>
@@ -103,28 +102,30 @@ const Home = ({ history }) => {
             )}
 
             <section id='missionStatement'>
-                <h2 id='whoWeAre'>{t.whoWeAre}</h2>
-                {/* <img id='fiveGVector' src={pix.fiveGVector} /> */}
-                <img id='treeVectors' src={pix.treeVectors} />
-                <div id='missionStatementText'>
-                    <b className='myriad-bold'>{t.mission1}</b> {t.mission2}
-                    <br/><br/>{t.mission3}<br/><br/>
-                    <span id='community' className='myriad-bold'>{t.mission4}</span>
+                <div id='missionStatementLeft'>
+                    <h2 id='whoWeAre' className='home-sub-header'>{t.whoWeAre}</h2>
+                    <img id='treeVectors' src={pix.treeVectors} />
                 </div>
-                <img id='missionStatementUnderlines' src={pix.underlines} />
-                <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />
-                <img id='blurryIntersection1' className='about-pix' src={pix.blurryIntersection1} />
-                <img id='niceWalkway' className='about-pix' src={pix.niceWalkway} />
+                <div id='missionStatementCenter'>
+                    <div>
+                        <div>
+                            <b className='myriad-bold'>{t.mission1}</b> {t.mission2}
+                            <br/><br/>{t.mission3}<br/><br/>
+                        </div>
+                        <span id='community' className='myriad-bold'>{t.mission4}</span>
+                        <img id='missionStatementUnderlines' src={pix.underlines} />
+                    </div>
+                </div>
+                <div id='missionStatementRight'>
+                    <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />
+                    <img id='blurryIntersection1' className='about-pix' src={pix.blurryIntersection1} />
+                    <img id='niceWalkway' className='about-pix' src={pix.niceWalkway} />
+                </div>
             </section>
 
-            {/* <img id='cityBlocksVector' src={pix.cityBlocksVector} /> */}
-            {/* <img id='backgroundGradientHome' src={pix.backgroundGradient} /> */}
-            {/* <div id='contactInfo'>
-                <span id='contactText1'>{t.contactText1}</span>
-                <span id='contactText2'>{t.contactText2}</span>
-                <img id='arrowRight' src={pix.arrowRight}/>
-                <a href={`mailto: ${t.contactEmail}`}>{t.contactEmail}</a>
-            </div> */}
+            <section id='philosophy'>
+                {/* <h2 id='whatWeDo' className='home-sub-header'>{t.whatWeDoHeader}</h2> */}
+            </section>
         </main>
     )
 }
