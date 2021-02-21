@@ -1,0 +1,11 @@
+#footer {
+  height: 10rem;
+  background:greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footerIcon {
+  width: 10rem;
+}

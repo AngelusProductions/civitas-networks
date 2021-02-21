@@ -104,7 +104,7 @@ const Home = ({ history }) => {
                 </>
             )}
 
-            <section id='missionStatement'>
+            <section id='missionStatement' className='home-section'>
                 <div id='missionStatementLeft'>
                     <h2 id='whoWeAre' className='home-sub-header'>{t.whoWeAre}</h2>
                     <img id='treeVectors' src={pix.treeVectors} />
@@ -126,13 +126,13 @@ const Home = ({ history }) => {
                 </div>
             </section>
 
-            <section id='whatWeDo'>
-                <h2 id='whatWeDo' className='home-sub-header'>{t.whatWeDoHeader}</h2>
+            <section id='whatWeDo' className='home-section'>
+                <h2 id='whatWeDoHeader' className='home-sub-header'>{t.whatWeDoHeader}</h2>
                 <p id='whatWeDoContent'>{t.whatWeDoContent}</p>
             </section>
 
-            <section id='whyWereHere'>
-                <h2 id='whyWereHere' className='home-sub-header'>{t.whyWereHereHeader}</h2>
+            <section id='whyWereHere' className='home-section'>
+                <h2 id='whyWereHereHeader' className='home-sub-header'>{t.whyWereHereHeader}</h2>
                 <p id='whyWereHereContent1'>{t.whyWereHereContent1}</p>
                 <p id='whyWereHereContent2'>{t.whyWereHereContent2}</p>
             </section>
