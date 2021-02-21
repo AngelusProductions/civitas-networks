@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Parallax } from 'react-parallax'
 import { withRouter } from "react-router"
+import { Link } from 'react-router-dom'
 import './styles.css'
 
 import * as pix from '../../../assets/pix'
@@ -30,7 +31,10 @@ const t = {
     whatWeDoContent: 'Civitas works directly with the community in a Public Private Partnership (PPP) to develop a data delivery system around the community’s Smart City needs, not just the needs of large MNOs.   This private network is then offered directly to its members as a utility, resulting in a system that protects the interests of the community in terms of visibility and services, while increasing municipal revenue and becoming a central element of their Smart City development strategy.',
     whyWereHereHeader: 'Why We\'re Here',
     whyWereHereContent1: 'Everyone talks about 5G service. Mobile networks claim to offer it to everyone. The government wants to fund deployment. Yet no one has developed a plan for providing such service to the smaller communities throughout the country since it is not a lucrative proposition.  Civitas Networks believes otherwise. It believes all communities should have access to the latest technology and its mission is to focus entirely on those communities being neglected and offer them a unique solution not readily available.',
-    whyWereHereContent2: 'Civitas Networks is driven by its primary objective of serving the needs of entire communities, not selective enclaves, and to be a completely transparent partner regarding its operations within those communities.'
+    whyWereHereContent2: 'Civitas Networks is driven by its primary objective of serving the needs of entire communities, not selective enclaves, and to be a completely transparent partner regarding its operations within those communities.',
+    vision: 'Learn About Our Vision',
+    partners: 'Check Out Our Partner Resources',
+    contact: 'Contact Our Team'
 }
 
 const Home = ({ history }) => {
@@ -135,6 +139,12 @@ const Home = ({ history }) => {
                 <h2 id='whyWereHereHeader' className='home-sub-header'>{t.whyWereHereHeader}</h2>
                 <p id='whyWereHereContent1'>{t.whyWereHereContent1}</p>
                 <p id='whyWereHereContent2'>{t.whyWereHereContent2}</p>
+            </section>
+
+            <section id='explore' className='home-section'>
+                <Link to={paths.vision}>{t.vision}</Link>
+                <Link to={paths.partners}>{t.partners}</Link>
+                <Link to={paths.contact}>{t.contact}</Link>
             </section>
         </main>
     )
