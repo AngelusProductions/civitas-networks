@@ -62,7 +62,7 @@ const Home = ({ history }) => {
             <Parallax 
                 id='parallax' 
                 blur={1} 
-                bgImage={pix.blurryIntersection11} 
+                bgImage={pix.blurryIntersection5} 
                 bgImageAlt='background' 
                 strength={250}
             >
@@ -108,7 +108,7 @@ const Home = ({ history }) => {
                 </>
             )}
 
-            <section id='missionStatement' className='home-section'>
+            <section id='missionStatement'>
                 <div id='missionStatementLeft'>
                     <h2 id='whoWeAre' className='home-sub-header'>{t.whoWeAre}</h2>
                     <img id='treeVectors' src={pix.treeVectors} />
@@ -132,19 +132,23 @@ const Home = ({ history }) => {
 
             <section id='whatWeDo' className='home-section'>
                 <h2 id='whatWeDoHeader' className='home-sub-header'>{t.whatWeDoHeader}</h2>
-                <p id='whatWeDoContent'>{t.whatWeDoContent}</p>
+                <div id='whatWeDoContentWrapper'>
+                    <p id='whatWeDoContent'>{t.whatWeDoContent}</p>
+                    <img id='whatWeDoIcon' src={pix.networkIcon1} />
+                </div>
             </section>
 
             <section id='whyWereHere' className='home-section'>
                 <h2 id='whyWereHereHeader' className='home-sub-header'>{t.whyWereHereHeader}</h2>
                 <p id='whyWereHereContent1'>{t.whyWereHereContent1}</p>
+                <img id='communityVector' src={pix.communityVector} />
                 <p id='whyWereHereContent2'>{t.whyWereHereContent2}</p>
             </section>
 
-            <section id='explore' className='home-section'>
-                <Link to={paths.vision}>{t.vision}</Link>
-                <Link to={paths.partners}>{t.partners}</Link>
-                <Link to={paths.contact}>{t.contact}</Link>
+            <section id='explore'>
+                <Link to={paths.vision} className='home-link'>{t.vision}</Link>
+                <Link to={paths.partners} className='home-link'>{t.partners}</Link>
+                <Link to={paths.contact} className='home-link'>{t.contact}</Link>
             </section>
         </main>
     )

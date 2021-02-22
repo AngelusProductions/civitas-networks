@@ -8,6 +8,12 @@
     margin: 1rem;
 } 
 
+.content-box-section:nth-child(odd) {
+    background: #08553314;
+    border-top: 1px solid #8fc4b1;
+    border-bottom: 1px solid #8fc4b1;
+}
+
 .content-box-section:nth-child(even) h2 {
     float: left;
 }
@@ -18,10 +24,9 @@
 .content-box-title {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
-    color: #550034;
+    color: #150938;
     padding: 1rem;
-    width: fit-content;
-    text-shadow: 1px 1px 3px #31f7b5;
+    text-shadow: 1px 1px 3px #acf3da;   
 }
 
 .content-box-content {

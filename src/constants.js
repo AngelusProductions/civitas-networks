@@ -64,8 +64,8 @@ export const contentBoxes = {
     ],
     ourVision: [
         {
-            id: 'whatWeDo',
-            title: 'What We Do',
+            id: 'mission',
+            title: 'Mission Statement',
             content: `What is needed is a deeper understanding of the community’s goals, and then building a
             system around them. Civitas’ s customized, flexible Open Source 5G based wireless network
             supplies the community with not only reliable, secure, and high-speed data, but a whole host

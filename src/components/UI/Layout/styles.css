@@ -8,6 +8,11 @@
   src: local('Myriad-Pro-Bold'), url(../../../assets/fonts/Myriad-Pro-Bold.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Rational-Text';
+  src: local('Rational-Text'), url(../../../assets/fonts/Rational-Text.woff) format('woff');
+}
+
 html, body {
   height: 100%;
 } 

@@ -5,14 +5,10 @@
 }
 
 #logoBlack {
-  height: 33vh;
-  margin-top: 7%;
-  background: linear-gradient(
-180deg
-, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 67%);
+  height: 37vh;
+  margin-top: 5%;
   padding: 0.7rem 1.7rem;
-  filter: drop-shadow(0px 6px 6px #150938);
-  border-radius: 7px;
+  filter: drop-shadow(0px 6px 6px white);
 }
 
 #portalAccess {
@@ -84,7 +80,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, #039746 100%);
+  background: linear-gradient( 
+    0deg
+     , rgba(255,255,255,1) 0%, #15b46f 100%);
   border-bottom: 1px solid #f4f0fff5;
   box-shadow: inset 0px -4px 8px 4px #0397463b;
   min-height: 207px;
@@ -186,11 +184,12 @@
 #missionStatementUnderlines {
   margin: 2rem auto;
   width: 55%;
+  filter: hue-rotate(263deg);
 }
 
 #community {
-  color: #1B5BFA;
-  text-shadow: 1px 1px 2px #050002;
+  color: #17ac6c;
+  text-shadow: 1px 1px 2px #150938;
 }
 
 #portalModal {
@@ -230,6 +229,77 @@
   z-index: 1;
 }
 
+.home-section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
 #whatWeDo {
-  background: black;
+  text-align: right;
+  background: #08553314;
+  border-top: 1px solid #8fc4b1;
+  border-bottom: 1px solid #8fc4b1;
+}
+
+#whatWeDoHeader {
+  align-self: flex-end;
+}
+
+#whatWeDoContentWrapper {
+  display: flex;
+}
+
+#whatWeDoIcon {
+  height: 11rem;
+  align-self: flex-end;
+  filter: opacity(0.3);
+}
+
+#whatWeDoContent {
+  margin: 1rem 4rem 0rem;
+  line-height: 2.9rem;
+}
+
+#whyWereHere {
+  text-align: left;
+}
+
+#whyWereHere p {
+  margin: 2rem;
+}
+
+#whyWereHereContent2 {
+  text-align: center; 
+}
+
+#communityVector {
+  width: 50vw;
+  filter: opacity(0.1);
+  margin: auto;
+}
+
+#explore {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.home-link {
+  padding: 2rem;
+  border-radius: 6rem;
+  text-decoration: none;
+  color: white;
+  background: #db1f7d99;
+  box-shadow: inset 0px 0px 10px 11px #30274fa8;
+  transition-duration: 75ms;
+  text-shadow: 1px 3px 2px #1a0f40;
+}
+
+.home-link:hover {
+  color: white;
+  background: #150938ed;
+  box-shadow: inset 1px 0px 11px 2px #5c28fa;
 }

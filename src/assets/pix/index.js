@@ -18,6 +18,7 @@ import cityCenterWoman from './cityCenterWoman.png'
 import cityEagleView from './cityEagleView.png'
 import cityObelisk from './cityObelisk.png'
 import communityDefinition from './communityDefinition.png'
+import communityVector from './communityVector.png'
 import constructionCrew from './constructionCrew.png'
 import farmFamily from './farmFamily.png'
 import fireworks from './fireworks.png'
@@ -49,6 +50,7 @@ import ladyCrossing from './ladyCrossing.png'
 import logoWhite from './logoWhite.png'
 import logoBlack from './logoBlack.png'
 import mainStreet from './mainStreet.jpg'
+import networkIcon1 from './networkIcon1.png'
 import niceWalkway from './niceWalkway.png'
 import nightStation from './nightStation.png'
 import nuts from './nuts.png'
@@ -88,6 +90,7 @@ export {
     cityEagleView,
     cityObelisk,
     communityDefinition,
+    communityVector,
     constructionCrew,
     farmFamily,
     fireworks,
@@ -119,6 +122,7 @@ export {
     logoWhite,
     logoBlack,
     mainStreet,
+    networkIcon1,
     niceWalkway,
     nightStation,
     nuts,

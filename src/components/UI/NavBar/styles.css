@@ -18,13 +18,13 @@
   padding: 1.1rem 0;
   text-decoration: none;
   color: white;
-  background: #a44165c7;
-  box-shadow: inset 0px 0px 10px 11px #30274fc2;
   width: 12rem;
   transition-duration: 75ms;
   text-shadow: 2px 3px 3px #1a0f40;
   border-radius: 3px;
   height: 3.4rem;
+  background: #db1f7d99;
+  box-shadow: inset 0px 0px 10px 11px #30274fa8;
 }
 
 #navBar a:hover {
