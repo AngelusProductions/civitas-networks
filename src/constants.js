@@ -1,3 +1,5 @@
+import * as pix from './assets/pix'
+
 export const paths = {
     home: '/',
     vision: '/vision',
@@ -20,7 +22,7 @@ export const contentBoxes = {
                 revenue without any significant capital outlay. Civitas manages all aspects of the project
                 making it easy for the community to get the system up and running quickly. We manage
                 design, construction, and operation.`
-            ]
+            ],
         },
         {
             id: 'whoWeAre',
@@ -76,13 +78,8 @@ export const contentBoxes = {
             network not only brings a whole host of new services, but also collects and analyzes data for
             the community to use to improve infrastructure, public utilities, services, and more. The digital
             infrastructure of a smart city sets the stage for a network of partnerships all focused on one
-            goal: Creating a smarter city. The result is an urban center that not only leverages technology to
-            improve its own operations, but one that connects its citizens, businesses, and nonprofits in
-            ways they’ve never experienced before. For example, retail market research and planning
-            currently leans heavily on surveys. With a community-based sensor system, the information is
-            already known. Community leaders can download and sort the data as needed.
-            Our Focus is to support the Community, provide actionable data and measurable benefits,
-            manage risk and resiliency, and enhance service.`
+            goal: Creating a smarter city.`,
+            pic: pix.cityCenterWoman
         },
         {
             id: 'smartSystems',
@@ -93,7 +90,8 @@ export const contentBoxes = {
             crime, improve security and safety, increase efficient use of other utilities such as water,
             power, and lighting. Civitas made networks will be designed as data farming engines,
             continuously harvesting large amounts of data per node. This data will serve a community for a
-            whole range of services:`
+            whole range of services:`,
+            pic: pix.trafficLight
         },
         {
             id: 'dataManagement',
@@ -105,7 +103,8 @@ export const contentBoxes = {
             security and privacy policies.  Data is collected from the many sensors located on or near our
             smart poles.  The data is run through an intelligence system that is either local, or via software
             intelligence as a service (IAAS), depending on security, level of desired analytics, and cost trade-
-            offs the community selects.`
+            offs the community selects.`,
+            pic: pix.okCrosswalk
         },
         {
             id: 'services',
@@ -121,6 +120,7 @@ export const contentBoxes = {
             or no community investment. The community will also realize an increase in revenue,
             estimated to be as much as 7-10% year-over-year.
             `,
+            pic: pix.townOverhead
         }
         // {
         //     id: 'esg',

@@ -69,11 +69,11 @@ const Home = ({ history }) => {
                 <section id='splashTop'>
                     <header id='homeHeader'>{t.header}</header>
                     <img id='logoBlack' src={pix.logoBlue} />
-                    <span 
+                    {/* <span 
                         id='portalAccess'
                         onClick={() => setIsPortalModalOpen(true)}>
                         {t.portal}
-                    </span>
+                    </span> */}
                 </section>
             </Parallax>
             <div id='underlayBar'>

@@ -1,3 +1,7 @@
+#homePage {
+  color: #661230;
+}
+
 #splashTop {
   height: 75vh;
   display: flex;
@@ -69,10 +73,6 @@
   z-index: -1;
 }
 
-#cityBlocksVector {
-  
-}
-
 #underlayBar {
   position: static;
   width: 100%;
@@ -115,7 +115,7 @@
 
 .home-sub-header {
   font-size: 4rem;
-  color: #150938;
+  color: #2768a0;
   border-bottom: 3px double #150938;
   filter: drop-shadow(-3px 3px 3px #15093869);
   width: fit-content;
