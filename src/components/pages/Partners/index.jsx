@@ -1,13 +1,24 @@
 import React from 'react'
 import './styles.css'
 
+import * as pix from '../../../assets/pix'
+
 const t = {
-    header: 'Partners' 
+    header: 'Details about out Partners are',
+    comingSoon: 'Coming Soon'
 }
 
 const Partners = () =>
     <main id='partnersPage'>
-        <header id='partnersHeader'>{t.header}</header>
+        <img id='partnersImage' src={pix.handSillhouetteCropped} />
+        <div id='partnersHeader'>
+            <span id='partnersHeaderText'>
+                {t.header}
+            </span>
+            <span id='comingSoon'>
+                {t.comingSoon}
+            </span>
+        </div>
     </main>
 
 export default Partners
