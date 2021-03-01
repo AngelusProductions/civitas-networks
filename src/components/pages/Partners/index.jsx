@@ -4,7 +4,7 @@ import './styles.css'
 import * as pix from '../../../assets/pix'
 
 const t = {
-    header: 'Details about out Partners are',
+    header: 'Details about out Partners',
     comingSoon: 'Coming Soon'
 }
 
