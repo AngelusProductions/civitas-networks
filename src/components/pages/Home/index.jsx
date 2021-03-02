@@ -8,7 +8,7 @@ import * as pix from '../../../assets/pix'
 import { paths, portalPwd } from '../../../constants'
 
 const t = {
-    header: 'The 5G network designed to meet the needs of your community.',
+    header: 'High Performance Data Networks Designed to Meet the Needs of Your Community',
     mission1: 'Civitas',
     mission2: 'is a Private Networks Company that designs, finances, & operates',
     mission3: 'self-reliant wireless networks',
