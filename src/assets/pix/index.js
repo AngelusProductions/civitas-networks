@@ -47,9 +47,11 @@ import handSillhouetteCropped from './handSillhouetteCropped.png'
 import homeBackground from './homeBackground.png'
 import iPhonePicnic from './iPhonePicnic.png'
 import ladyCrossing from './ladyCrossing.png'
-import logoWhite from './logoWhite.png'
+import logoApex from './logoApex.png'
 import logoBlack from './logoBlack.png'
 import logoBlue from './logoBlue.png'
+import logoDsg from './logoDsg.png'
+import logoWhite from './logoWhite.png'
 import mainStreet from './mainStreet.jpg'
 import networkIcon1 from './networkIcon1.png'
 import niceWalkway from './niceWalkway.png'
@@ -120,9 +122,11 @@ export {
     homeBackground,
     iPhonePicnic,
     ladyCrossing,
-    logoWhite,
+    logoApex,
     logoBlack,
     logoBlue,
+    logoDsg,
+    logoWhite,
     mainStreet,
     networkIcon1,
     niceWalkway,

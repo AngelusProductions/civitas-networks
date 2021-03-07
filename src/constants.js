@@ -11,59 +11,6 @@ export const paths = {
 export const portalPwd = 'civitas1234'
 
 export const contentBoxes = {
-    home: [
-        {
-            id: 'about',
-            title: 'About',
-            content: [
-                `Civitas Networks is a Private Networks Company that designs, finances, and operates complete
-                private wireless networks directly to the community, designed from the ground up to be
-                optimally suited to its needs. This precise solution brings new services that increase community
-                revenue without any significant capital outlay. Civitas manages all aspects of the project
-                making it easy for the community to get the system up and running quickly. We manage
-                design, construction, and operation.`
-            ],
-        },
-        {
-            id: 'whoWeAre',
-            title: 'Who We Are',
-            content: [
-                `The Civitas Team is one of the most experienced in the wireless telecom industry. Our leaders
-                all have more than 25 years of experience in their role and have touched every part of a system
-                many times over, ensuring quicker time to market, high performance, and lower cost.`
-            ]
-        },
-        {
-            id: 'missionPhilosophy',
-            title: 'Mission & Philosophy',
-            content: `Everyone talks about 5G service. Mobile networks claim to offer it to everyone. The
-            government wants to fund deployment. Yet no one has developed a plan for providing such
-            service to the smaller communities throughout the country since it is not a lucrative
-            proposition. Civitas Networks believes otherwise. It believes all communities should have
-            access to the latest technology and its mission is to focus entirely on those communities being
-            neglected and offer them a unique solution not readily available.
-             Civitas’s unique approach to 5G fills the need for community’s looking for privacy,
-            security, and a more useful network based on their needs on not the MNOs,
-             5G private networks will improve a community’s way of life and bring new sources of
-            revenue,
-             Better looking and fitting equipment will ease deployment issues, enhancing the value
-            of the community,
-             Civitas works closely with the community to ensure their 5G and smart community
-            needs are part of the equation.`
-        },
-        {
-            id: 'publicPrivate',
-            title: 'Public Private Partnership',
-            content: `Civitas works directly with the community in a Public Private Partnership (PPP) to develop a
-            data delivery system around the community’s Smart City needs, not just the needs of large
-            MNOs. This private network is then offered directly to its members as a utility, resulting in a
-            system that protects the interests of the community in terms of visibility and services, while
-            increasing municipal revenue and becoming a central element of their Smart City development
-            strategy. Civitas Networks is driven by its primary objective of serving the needs of entire
-            communities, not selective enclaves, and to be a completely transparent partner regarding its
-            operations within those communities.`
-        }
-    ],
     ourVision: [
         {
             id: 'mission',
@@ -122,41 +69,28 @@ export const contentBoxes = {
             `,
             pic: pix.townOverhead
         }
-        // {
-        //     id: 'esg',
-        //     title: 'ESG',
-        //     content: `Environmental, Social and Governance factors include ethical, sustainable and
-        //     corporate government issues to ensure accountability and managing the corporation’s
-        //     carbon footprint. Civitas will work closely with municipalities to ensure all parties achieve
-        //     the highest possible standards for measuring these factors.
-        //     ESG’s three central factors are:
-        //     Environmental criteria, which examines how a business performs as a steward of our
-        //     natural environment, focusing on:
-        //      waste and pollution
-        //      resource depletion
-        //      greenhouse gas emission
-        //      deforestation
-        //      climate change
-        //     Social criteria, which looks at how the company treats people, and concentrates on:
-        //      employee relations &amp; diversity
-        //      working conditions, including child labor and slavery
-        //      local communities; seeks explicitly to fund projects or institutions that will serve
-        //     poor and underserved communities globally
-        //      health and safety
-        //      conflict
-        //     Governance criteria, which examines how a corporation polices itself – how the
-        //     company is governed, and focuses on:
-        //      tax strategy
-        //      executive remuneration
-        //      donations and political lobbying
-        //      corruption and bribery
-        //      board diversity and structure`
-        // }
     ],
-    contact: [
-
-    ],
-    portal: [
-
+    partners: [
+        {
+            id: 'apex',
+            title: 'Apex Advanced Technology',
+            content: 'Apex Advanced Technology LLC (Apex), an engineering firm based in Herndon, VA which provides Engineering services to customers worldwide. Apex has well qualified and professional staff members with years of experience. It provides quality engineering services to many projects and clients of international repute under the leadership of following highly accomplished people',
+            link: 'http://www.apexadvancedtech.com/about/',
+            pic: pix.logoApex
+        },
+        {
+            id: 'DSG',
+            title: 'DSG Telecom',
+            content: 'DSG Telecom is a privately held company focused on providing high quality passive components to the wireless telecommunications infrastructure market. DSG Telecom is rated among the best in the industry, designing and manufacturing products of the highest quality that will solve your complex issues.',
+            link: 'https://www.dsgtelecom.com',
+            pic: pix.logoDsg
+        },
+        {
+            id: 'greenIslandResources',
+            title: 'Green Island Resources',
+            content: 'Construction, Design, Management of large Venue, Municipal, and wireless networks.',
+            link: null,
+            pic: null
+        }
     ]
 }
