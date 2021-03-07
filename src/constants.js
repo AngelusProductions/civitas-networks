@@ -69,28 +69,29 @@ export const contentBoxes = {
             `,
             pic: pix.townOverhead
         }
-    ],
-    partners: [
-        {
-            id: 'apex',
-            title: 'Apex Advanced Technology',
-            content: 'Apex Advanced Technology LLC (Apex), an engineering firm based in Herndon, VA which provides Engineering services to customers worldwide. Apex has well qualified and professional staff members with years of experience. It provides quality engineering services to many projects and clients of international repute under the leadership of following highly accomplished people',
-            link: 'http://www.apexadvancedtech.com/about/',
-            pic: pix.logoApex
-        },
-        {
-            id: 'DSG',
-            title: 'DSG Telecom',
-            content: 'DSG Telecom is a privately held company focused on providing high quality passive components to the wireless telecommunications infrastructure market. DSG Telecom is rated among the best in the industry, designing and manufacturing products of the highest quality that will solve your complex issues.',
-            link: 'https://www.dsgtelecom.com',
-            pic: pix.logoDsg
-        },
-        {
-            id: 'greenIslandResources',
-            title: 'Green Island Resources',
-            content: 'Construction, Design, Management of large Venue, Municipal, and wireless networks.',
-            link: null,
-            pic: null
-        }
     ]
 }
+
+export const partners = [
+    {
+        id: 'apex',
+        title: 'Apex Advanced Technology',
+        content: 'Apex Advanced Technology LLC (Apex), an engineering firm based in Herndon, VA which provides Engineering services to customers worldwide. Apex has well qualified and professional staff members with years of experience. It provides quality engineering services to many projects and clients of international repute under the leadership of following highly accomplished people',
+        link: 'http://www.apexadvancedtech.com/about/',
+        pic: pix.logoApex
+    },
+    {
+        id: 'DSG',
+        title: 'DSG Telecom',
+        content: 'DSG Telecom is a privately held company focused on providing high quality passive components to the wireless telecommunications infrastructure market. DSG Telecom is rated among the best in the industry, designing and manufacturing products of the highest quality that will solve your complex issues.',
+        link: 'https://www.dsgtelecom.com',
+        pic: pix.logoDsg
+    },
+    {
+        id: 'greenIslandResources',
+        title: 'Green Island Resources',
+        content: 'Construction, Design, Management of large Venue, Municipal, and wireless networks.',
+        link: null,
+        pic: null
+    }
+]

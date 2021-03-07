@@ -1,11 +1,13 @@
 import React from 'react'
 import './styles.css'
 
+import Partner from '../../UI/Partner'
+
+import { partners } from '../../../constants'
 import * as pix from '../../../assets/pix'
 
 const t = {
-    header: 'Details about out our Partners',
-    comingSoon: 'Coming Soon'
+    header: 'Our Partners',
 }
 
 const Partners = () =>
@@ -15,10 +17,10 @@ const Partners = () =>
             <span id='partnersHeaderText'>
                 {t.header}
             </span>
-            <span id='comingSoon'>
-                {t.comingSoon}
-            </span>
         </div>
+        {partners.map(partner => 
+            <Partner {...partner} key={partner.id} />
+        )}
     </main>
 
 export default Partners
