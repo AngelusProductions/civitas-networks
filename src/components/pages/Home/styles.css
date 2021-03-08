@@ -1,5 +1,5 @@
 #homePage {
-  color: #661230;
+  /* color: #661230; */
 }
 
 #splashTop {
@@ -117,9 +117,10 @@
 .home-sub-header {
   font-size: 4rem;
   color: #2768a0;
-  border-bottom: 3px double #150938;
-  filter: drop-shadow(-3px 3px 3px #15093869);
+  border-bottom: 3px double #6698be;
   width: fit-content;
+  font-family: 'proxima-nova';
+  text-transform: lowercase;
 }
 
 #missionStatementLeft {
@@ -190,7 +191,6 @@
 
 #community {
   color: #17ac6c;
-  text-shadow: 1px 1px 2px #150938;
 }
 
 #portalModal {
@@ -290,17 +290,22 @@
 
 .home-link {
   padding: 2rem;
+  font-size: 2.2vw;
   border-radius: 6rem;
   text-decoration: none;
   color: white;
-  background: #db1f7d99;
-  box-shadow: inset 0px 0px 10px 11px #30274fa8;
   transition-duration: 75ms;
-  text-shadow: 1px 3px 2px #1a0f40;
+  font-family: 'proxima-nova';
+  text-transform: lowercase;
+  font-weight: bold;
+  background: #0e3653f7;
+  box-shadow: inset 1px 0px 11px 2px #0092ff;
+  text-shadow: -2px 3px 3px #18ac6c;
 }
 
 .home-link:hover {
   color: white;
-  background: #150938ed;
-  box-shadow: inset 1px 0px 11px 2px #5c28fa;
+  text-shadow: 1px 3px 2px #1a0f40;
+  background: #db1f7d99;
+  box-shadow: inset 0px 0px 10px 11px #30274fa8;
 }

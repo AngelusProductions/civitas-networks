@@ -33,7 +33,7 @@ const t = {
     whyWereHereContent1: 'Everyone talks about 5G service. Mobile networks claim to offer it to everyone. The government wants to fund deployment. Yet no one has developed a plan for providing such service to the smaller communities throughout the country since it is not a lucrative proposition.  Civitas Networks believes otherwise. It believes all communities should have access to the latest technology and its mission is to focus entirely on those communities being neglected and offer them a unique solution not readily available.',
     whyWereHereContent2: 'Civitas Networks is driven by its primary objective of serving the needs of entire communities, not selective enclaves, and to be a completely transparent partner regarding its operations within those communities.',
     vision: 'Learn About Our Vision',
-    partners: 'Check Out Our Partner Resources',
+    partners: 'Check Out Our Partners',
     contact: 'Contact Our Team'
 }
 

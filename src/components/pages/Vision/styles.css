@@ -24,11 +24,13 @@
 
 #visionHeader {
     color: white;
-    text-align: center;
     font-size: 8rem;
-    padding: 1rem;
+    padding: 4.2rem;
+    padding-left: 4em;
     background: #1d68a0;
-    font-family: 'Myriad-Pro';
     text-shadow: -2px 0px 7px #8fc4b1;
     box-shadow: inset 0 0 68px 22px #440725;
+    font-family: 'proxima-nova';
+    text-transform: lowercase;
+    font-weight: bold;
 }

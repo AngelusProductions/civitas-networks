@@ -3,7 +3,7 @@ import * as pix from '../../../assets/pix'
 import './styles.css'
 
 const t = {
-    contactText1: 'For more information',
+    contactText1: 'for more information,',
     contactText2: 'click the email below to contact us',
     contactEmail: 'info@civitasnetworks.com',
 }

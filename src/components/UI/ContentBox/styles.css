@@ -22,16 +22,18 @@
 }
 
 .content-box-title {
-    font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
     color: #150938;
     padding: 1rem;
     text-shadow: 1px 1px 1px #acf3da;
     filter: drop-shadow(-1px 2px 3px #15093869);
+    font-family: 'proxima-nova';
+    text-transform: lowercase;
+    font-weight: bold;
 }
 
 .content-box-content {
-    color: #661230;
+    /* color: #661230; */
     font-size: 2rem;
     line-height: 2.5rem;
     padding: 1rem 2rem;

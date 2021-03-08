@@ -76,7 +76,7 @@ export const partners = [
     {
         id: 'apex',
         title: 'Apex Advanced Technology',
-        content: 'Apex Advanced Technology LLC (Apex), an engineering firm based in Herndon, VA which provides Engineering services to customers worldwide. Apex has well qualified and professional staff members with years of experience. It provides quality engineering services to many projects and clients of international repute under the leadership of following highly accomplished people',
+        content: 'Apex Advanced Technology LLC (Apex), an engineering firm based in Herndon, VA which provides Engineering services to customers worldwide. Apex has well qualified and professional staff members with years of experience. It provides quality engineering services to many projects and clients of international repute under the leadership of following highly accomplished people.',
         link: 'http://www.apexadvancedtech.com/about/',
         pic: pix.logoApex
     },

@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/jok1uvq.css");
+
 @font-face {
   font-family: 'Myriad-Pro';
   src: local('Myriad-Pro'), url(../../../assets/fonts/Myriad-Pro.woff) format('woff');
@@ -11,6 +13,11 @@
 @font-face {
   font-family: 'Rational-Text';
   src: local('Rational-Text'), url(../../../assets/fonts/Rational-Text.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Olivetta-Black';
+  src: local('Olivetta-Black'), url(../../../assets/fonts/Olivetta-Black.woff) format('woff');
 }
 
 html, body {

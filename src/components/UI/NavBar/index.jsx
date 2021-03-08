@@ -7,7 +7,7 @@ import { paths } from '../../../constants'
 const t = {
     home: 'Home',
     vision: 'Our Vision',
-    partners: 'Partners',
+    partners: 'Our Partners',
     contact: 'Contact Us'
 }
 

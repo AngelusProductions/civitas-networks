@@ -1,9 +1,8 @@
 #partnersPage {
     height: calc(100vh - 10rem);
-    background: radial-gradient(circle, rgba(255,255,255,0.6979166666666667) 0%, rgb(8 85 51 / 25%) 100%);
     display: flex;
     flex-direction: column;
-    color: #661230;
+    /* color: #661230; */
 }
 
 #partnersImage {
@@ -15,22 +14,29 @@
     filter: drop-shadow(0px 5px 4px #150938);
 }
 
+
 #partnersHeader {
+    color: #1d68a0;
+    font-size: 8rem;
+    background: #1d68a0;
+    text-shadow: 0px 7px 8px #ffffff;
+    box-shadow: inset 0 0 68px 22px #440725;
+    font-family: 'proxima-nova';
+    text-transform: lowercase;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 13vh;
     text-align: center;
-    font-size: 4rem;
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    height: 35vh;
+    min-width: 67rem;
+    background-image: url('../../../assets/pix/handSillhouette.png');
+    background-position: top;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 6px #440725);
+    min-height: 19.4rem;
 }
 
-#comingSoon {
-    background: #1d68a0;
-    height: 5rem;
-    color: white;
-    padding: 1.5rem;
-    margin-top: 5rem;
-    border-radius: 4px;
-    text-shadow: 1px 1px 2px black;
+#partnersList {
+    display: flex;
+    justify-content: space-around;
 }
