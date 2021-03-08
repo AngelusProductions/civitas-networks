@@ -90,7 +90,7 @@ export const partners = [
     {
         id: 'greenIslandResources',
         title: 'Green Island Resources',
-        content: 'Construction, Design, Management of large Venue, Municipal, and wireless networks.',
+        content: 'Green Island is a Project Management Company for wireless networks.  With more than 30 years of experience from design services to site acquisition, construction, optimization, and maintenance.',
         link: null,
         pic: null
     }
