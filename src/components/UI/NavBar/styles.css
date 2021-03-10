@@ -6,10 +6,10 @@
   top: 2rem;
   right: 2rem;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
   letter-spacing: 2px;
   font-size: 1.7rem;
-  width: 60rem;
+  width: 100%;
 }
 
 #navBar a {
