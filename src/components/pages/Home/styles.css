@@ -1,6 +1,3 @@
-#homePage {
-  /* color: #661230; */
-}
 
 #splashTop {
   height: 75vh;
@@ -156,10 +153,10 @@
 
 .about-pix {
   position: absolute;
-  border: 1px solid #150938;
+  border: 1px solid #18ac6c;
   padding: 1rem;
   border-radius: 50%;
-  filter: drop-shadow(6px 4px 5px #150938);
+  filter: drop-shadow(6px 4px 5px #1d68a0);
 }
 
 #cityObelisk {
