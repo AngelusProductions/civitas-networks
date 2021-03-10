@@ -92,6 +92,6 @@ export const partners = [
         title: 'Green Island Resources',
         content: 'Green Island is a Project Management Company for wireless networks.  With more than 30 years of experience from design services to site acquisition, construction, optimization, and maintenance.',
         link: null,
-        pic: null
+        pic: pix.logoGreenIsland
     }
 ]

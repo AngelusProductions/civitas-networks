@@ -17,10 +17,9 @@ const Partners = () =>
             {t.header}
         </span>
         <section id='partnersList'>
-        {partners.map(partner => 
-            <Partner {...partner} key={partner.id} />
-        )}
-
+            {partners.map(partner => 
+                <Partner {...partner} key={partner.id} />
+            )}
         </section>
     </main>
 

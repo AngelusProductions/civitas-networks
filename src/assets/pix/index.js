@@ -51,6 +51,7 @@ import logoApex from './logoApex.png'
 import logoBlack from './logoBlack.png'
 import logoBlue from './logoBlue.png'
 import logoDsg from './logoDsg.png'
+import logoGreenIsland from './logoGreenIsland.jpg'
 import logoWhite from './logoWhite.png'
 import mainStreet from './mainStreet.jpg'
 import networkIcon1 from './networkIcon1.png'
@@ -126,6 +127,7 @@ export {
     logoBlack,
     logoBlue,
     logoDsg,
+    logoGreenIsland,
     logoWhite,
     mainStreet,
     networkIcon1,
