@@ -24,7 +24,7 @@ const t = {
     contactEmail: 'info@civitasnetworks.com',
     underlay1: 'Highly Secure Hyper-Local Data',
     underlay2: 'Smarter Systems & Sensors',
-    underlay3: 'Increased Government Effeciency',
+    underlay3: 'Increased Government Efficiency',
     underlay4: 'Improved Quality of Life',
     whoWeAre: 'Who We Are',
     whatWeDoHeader: 'What We Do',

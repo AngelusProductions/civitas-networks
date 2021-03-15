@@ -7,7 +7,7 @@ import { partners } from '../../../constants'
 import * as pix from '../../../assets/pix'
 
 const t = {
-    header: 'meet our partners.',
+    header: 'meet our partners',
 }
 
 const Partners = () =>

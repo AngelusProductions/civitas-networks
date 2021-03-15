@@ -37,7 +37,7 @@ export const contentBoxes = {
             crime, improve security and safety, increase efficient use of other utilities such as water,
             power, and lighting. Civitas made networks will be designed as data farming engines,
             continuously harvesting large amounts of data per node. This data will serve a community for a
-            whole range of services:`,
+            whole range of services.`,
             pic: pix.trafficLight
         },
         {
@@ -48,9 +48,9 @@ export const contentBoxes = {
             efficiently on real-time data previously unavailable to anyone, and to monetize that data to the
             market as an important revenue source.  All data collection is governed by the community’s
             security and privacy policies.  Data is collected from the many sensors located on or near our
-            smart poles.  The data is run through an intelligence system that is either local, or via software
-            intelligence as a service (IAAS), depending on security, level of desired analytics, and cost trade-
-            offs the community selects.`,
+            smart poles.  The data is run through an intelligence system that is either local, or cloud-based
+            intelligence as a service (IAAS), depending on security, level of desired analytics, and cost trade-offs
+            the community selects.`,
             pic: pix.okCrosswalk
         },
         {
