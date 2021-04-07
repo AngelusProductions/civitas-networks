@@ -15,7 +15,6 @@ const Contact = () =>
             <img id='contactLightbulb' src={pix.fiveGLightbulb} />
             <span id='contactText1'>{t.contactText1}</span>
             <span id='contactText2'>{t.contactText2}</span>
-            {/* <img id='arrowRight' src={pix.arrowRight} /> */}
             <a href={`mailto: ${t.contactEmail}`}>{t.contactEmail}</a>
         </div>
     </main>

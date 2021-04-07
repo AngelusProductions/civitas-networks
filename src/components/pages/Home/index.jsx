@@ -17,7 +17,7 @@ const t = {
     pwdPrompt: 'Please enter the Civitas Secure password to proceed.',
     submit: 'Submit',
     cancel: 'Cancel',
-    warning: 'Incorrect password.',
+    warning: 'incorrect password',
     placeholder: 'enter password here',
     contactText1: 'For more information,', 
     contactText2: 'click the email below to contact us',
@@ -69,11 +69,11 @@ const Home = ({ history }) => {
                 <section id='splashTop'>
                     <header id='homeHeader'>{t.header}</header>
                     <img id='logoBlack' src={pix.logoBlue} />
-                    {/* <span 
+                    <span 
                         id='portalAccess'
                         onClick={() => setIsPortalModalOpen(true)}>
                         {t.portal}
-                    </span> */}
+                    </span>
                 </section>
             </Parallax>
             <div id='underlayBar'>
@@ -91,7 +91,7 @@ const Home = ({ history }) => {
                 <>
                     <div id='blackBackground' />
                     <div id='portalModal'>
-                        <label>{t.pwdPrompt}</label>
+                        <label id='portalPwdPrompt'>{t.pwdPrompt}</label>
                         <input 
                             id='pwdInput' 
                             type='password'
