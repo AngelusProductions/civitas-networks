@@ -56,18 +56,14 @@ export const contentBoxes = {
         {
             id: 'services',
             title: 'Services',
-            content: `Civitas disrupts the traditional telecom model by creating a smart city system precisely
-            designed for the present and future needs of the host community, not just for benefit of the
-            wireless operator. Civitas custom designs the entire system around the growth plan and goals
+            content: `Civitas helps you meet your community goals. We design the entire system around the growth plan and goals
             of the community. As a single source provider of optional unlicensed network services and
             connectivity, smart pole hosted sensor and 5G technology, robust security services, and data
             governance models, Civitas custom designs the entire system based around the growth plan
             and goals of the community. Some of the benefits for the community include offering the
             latest in 5G technology, advanced high efficiency lighting, and environmental sensors with little
-            or no community investment. The community will also realize an increase in revenue,
-            estimated to be as much as 7-10% year-over-year.
-            `,
-            pic: pix.townOverhead
+            or no community investment.`,
+            pic: pix.electricCarCharge
         }
     ]
 }

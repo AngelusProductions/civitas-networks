@@ -20,6 +20,7 @@ import cityObelisk from './cityObelisk.png'
 import communityDefinition from './communityDefinition.png'
 import communityVector from './communityVector.png'
 import constructionCrew from './constructionCrew.png'
+import electricCarCharge from './electricCarCharge.png'
 import farmFamily from './farmFamily.png'
 import fireworks from './fireworks.png'
 import fisheyeTownCenter1 from './fisheyeTownCenter1.png'
@@ -96,6 +97,7 @@ export {
     communityDefinition,
     communityVector,
     constructionCrew,
+    electricCarCharge,
     farmFamily,
     fireworks,
     fisheyeTownCenter1,

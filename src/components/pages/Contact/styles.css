@@ -1,31 +1,42 @@
 #contactPage {
-    height: calc(100vh - 10rem);
-    background: linear-gradient(
-280deg
-, rgba(255,255,255,0.6979166666666667) 25%, #2768a082 75%);
+  height: calc(100vh - 10rem);
+  background: linear-gradient( 
+215deg
+, rgba(255,255,255,0.6979166666666667) 81%, #38ab6c 100%);
+}
+
+#contactSideground {
+  position: absolute;
+  height: calc(100vh - 10rem);
+  z-index: -1;
+  right: 0;
+  border-bottom-left-radius: 100%;
 }
 
 #contactInfo {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Myriad Pro';
-    font-size: 3vmax;
-    position: relative;
-    bottom: -42vh;
-    left: 25vw;
-    border-radius: 9px;
-    padding: 1rem;
-    box-shadow: 2px -90px 48px 2px white;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Myriad Pro';
+  font-size: 3vmax;
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  left: 25vw;
+  top: 20vh;
+  background: #ffffff;
+  min-width: 36rem;
+  border-radius: 1.5rem;
+  border: #38ab6c 1px solid;
+  box-shadow: inset 0 0 71px 2px #1d68a0;
+}
   
   #contactInfo a {
     text-decoration: none;
     color: white;
     background: #38ab6c;
     padding: 1.5rem;
-    position: absolute;
-    left: 29vw;
-    top: 4vh;
     text-shadow: 0px 2px 2px #36211f;
     filter: drop-shadow(4px 7px 4px #36211fd0);
   }
@@ -33,29 +44,30 @@
     color: #36211f;
     background: #e879b0;
   }
-  
   #contactInfo a:active {
     transform: scale3D(0.9);
   }
+
+  #contactLightbulb {
+    width: 13rem;
+    height: 13rem;
+    padding: 1rem;
+    border: 1px solid #38ab6c;
+    border-radius: 50%;
+    filter: drop-shadow(0 6px 6px #1d68a0);
+  }
   
   #contactText1 {
-    position: absolute;
-    top: -11vh;
-    color: #36211E;
+    font-size: 3.7vmax;
+    color: #150938;
+    text-shadow: 1px 1px 1px #acf3da;
+    filter: drop-shadow(-1px 2px 3px #15093869);
+    font-family: 'proxima-nova';
+    text-transform: lowercase;
+    font-weight: bold;
   }
   
   #contactText2 {
-    position: absolute;
-    font-size: 2.9vmax;
-    left: 8vw;
+    font-size: 2.7vmax;
     color: #661230;
-    top: -3vh;
-  }
-  
-  #arrowRight {
-    position: absolute;
-    left: 18vw;
-    top: 2vh;
-    width: 10vw;
-    filter: hue-rotate(117deg);
   }
