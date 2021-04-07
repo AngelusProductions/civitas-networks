@@ -318,7 +318,7 @@
 #whatWeDoIcon {
   height: 11rem;
   align-self: flex-end;
-  filter: opacity(0.3);
+  filter: opacity(0.2);
 }
 
 #whatWeDoContent {
