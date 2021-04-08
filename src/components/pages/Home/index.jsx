@@ -68,7 +68,9 @@ const Home = ({ history }) => {
             >
                 <section id='splashTop'>
                     <header id='homeHeader'>{t.header}</header>
-                    <img id='logoBlack' src={pix.logoBlue} />
+                    <div id='logoBlackWrapper'>
+                        <img id='logoBlack' src={pix.logoBlue} />
+                    </div>
                     <span 
                         id='portalAccess'
                         onClick={() => setIsPortalModalOpen(true)}>
