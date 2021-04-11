@@ -184,20 +184,17 @@
   width: 30rem;
   z-index: 1;
   right: 0;
-  animation: linear RotateClockwise 30000ms 2000ms infinite;
 }
 
 #blurryIntersection1 {
   width: 60%;
   z-index: 2;
-  animation: linear RotateCounterclockwise 30000ms 1000ms infinite;
 }
 
 #niceWalkway {
   width: 39%;
   left: -15%;
   z-index: 3;
-  animation: linear RotateClockwise 30000ms infinite;
 }
 
 .gear {
