@@ -34,6 +34,7 @@ import fiveGOk from './fiveGOk.png'
 import fiveGScrabble from './fiveGScrabble.png'
 import fiveGSkySignal from './fiveGSkySignal.png'
 import fiveGVector from './fiveGVector.png'
+import gear from './gear.png'
 import greenTown from './greenTown.png'
 import handBarley from './handBarley.png'
 import handButton from './handButton.png'
@@ -111,6 +112,7 @@ export {
     fiveGScrabble,
     fiveGSkySignal,
     fiveGVector,
+    gear,
     greenTown,
     handBarley,
     handButton,

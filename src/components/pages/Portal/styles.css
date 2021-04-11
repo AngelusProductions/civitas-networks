@@ -9,13 +9,115 @@
     display: none;
 }
 
+#portalModal {
+    position: absolute;
+    left: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    z-index: 2;
+    align-items: center;
+    font-family: 'Myriad Pro';
+    font-size: 3vmax;
+    height: 50vh;
+    width: 50vw;
+    top: 20vh;
+    background: #ffffff;
+    min-width: 36rem;
+    border-radius: 1.5rem;
+    border: #38ab6c 1px solid;
+    box-shadow: inset 0 0 71px 2px #1d68a0;
+  }
+  
+  #portalPwdPrompt {
+    font-size: 3vmax;
+    color: #150938;
+    text-shadow: 1px 1px 1px #acf3da;
+    filter: drop-shadow(-1px 2px 3px #15093869);
+    font-family: 'proxima-nova';
+    height: 8rem;
+    line-height: 4rem;
+    font-weight: bold;
+  }
+  
+  #portalModal > input {
+    width: 50%;
+    align-self: center;
+    height: 7rem;
+    background: #18ac6c63;
+    border: none;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #312808;
+    box-shadow: inset 0 0 26px 2px #1d68a0;
+  }
+  
+  #pwdButtons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  #pwdSubmit:hover,
+  #pwdCancel:hover {
+    filter: brightness(1.25);
+  }
+  
+  
+  #pwdSubmit:active,
+  #pwdCancel:active {
+    transform: scale(0.9);
+  }
+  
+  #pwdSubmit {
+    color: white;
+    background: #38ab6c;
+    padding: 1rem;
+    text-shadow: 0px 2px 2px #36211f;
+    filter: drop-shadow(0px 3px 4px #36211fd0);
+    border-radius: 1.5rem;
+    font-family: 'proxima-nova';
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  
+  #pwdCancel {
+    color: white;
+    background: #db1f7d99;
+    padding: 1rem;
+    text-shadow: 0px 2px 2px #36211f;
+    filter: drop-shadow(0px 3px 4px #36211fd0);
+    border-radius: 1.5rem;
+    font-family: 'proxima-nova';
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  
+  #pwdWarning {
+    font-size: 2vmax;
+      color: #c14f85;
+      text-shadow: 1px 1px 1px #38ab6c;
+      font-family: 'proxima-nova';
+      font-weight: bold;
+  }
+  
+  #blackBackground {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: #000000bd;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
 #portalHeader {
     font-size: 4vmax;
     color: #ffffff;
     text-shadow: 1px 1px 1px #acf3da;
     filter: drop-shadow(-1px 2px 3px #15093869);
     font-family: 'proxima-nova';
-    text-transform: lowercase;
     font-weight: bold;
     position: absolute;
     top: 15vh;
@@ -32,4 +134,22 @@
     height: calc(100vh - 10rem);
     left: 0;
     border-bottom-right-radius: 100%;
+}
+
+#portalDownloadButton {
+    color: white;
+    padding: 1.5rem;
+    background: #db1f7d99;
+    text-shadow: 0px 2px 2px #36211f;
+    filter: drop-shadow(4px 7px 4px #36211fd0);
+    font-family: 'proxima-nova';
+    font-size: 2.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    bottom: 12rem;
+    right: 2rem;
+}
+#portalDownloadButton:hover {
+    background: #38ab6c;
 }

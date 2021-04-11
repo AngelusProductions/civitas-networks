@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import './styles.css'
 
 import * as pix from '../../../assets/pix'
-import { paths, portalPwd } from '../../../constants'
+import { paths } from '../../../constants'
 
 const t = {
     header: 'High Performance Data Networks Designed to Meet the Needs of Your Community',
@@ -14,14 +14,6 @@ const t = {
     mission3: 'self-reliant wireless networks',
     mission4: 'finetuned to realize your community\'s 5G ambitions.',
     portal: 'Portal Access',
-    pwdPrompt: 'Please enter the Civitas Secure password to proceed.',
-    submit: 'Submit',
-    cancel: 'Cancel',
-    warning: 'incorrect password',
-    placeholder: 'enter password here',
-    contactText1: 'For more information,', 
-    contactText2: 'click the email below to contact us',
-    contactEmail: 'info@civitasnetworks.com',
     underlay1: 'Highly Secure Hyper-Local Data',
     underlay2: 'Smarter Systems & Sensors',
     underlay3: 'Increased Government Efficiency',
@@ -37,123 +29,85 @@ const t = {
     contact: 'Contact Our Team'
 }
 
-const Home = ({ history }) => {
-    const [isPortalModalOpen, setIsPortalModalOpen] = useState(false)
-    const [isWarningVisible, setIsWarningVisible] = useState(false)
-    const [pwdField, setPwdField] = useState('')
-    
-    function onSubmit () {
-        if (pwdField.toLowerCase() === portalPwd) {
-            setIsPortalModalOpen(false)
-            setIsWarningVisible(false)
-            setPwdField('')
-            history.push(paths.portal)
-        } else 
-            setIsWarningVisible(true)
-    }
-
-    const onCancel = () => {
-        setPwdField('')
-        setIsPortalModalOpen(false)
-        setIsWarningVisible(false)
-    }
-    return (
-        <main id='homePage'>
-            <Parallax 
-                id='parallax' 
-                blur={1} 
-                bgImage={pix.blurryIntersection5} 
-                bgImageAlt='background' 
-                strength={250}
-            >
-                <section id='splashTop'>
-                    <header id='homeHeader'>{t.header}</header>
-                    <div id='logoBlackWrapper'>
-                        <img id='logoBlack' src={pix.logoBlue} />
-                    </div>
-                    <span 
-                        id='portalAccess'
-                        onClick={() => setIsPortalModalOpen(true)}>
-                        {t.portal}
-                    </span>
-                </section>
-            </Parallax>
-            <div id='underlayBar'>
-                <img className='underlay-pic' src={pix.fiveGBeachPic} />
-                <span className='underlay-text'>{t.underlay1}</span>
-                <img className='underlay-pic' src={pix.fiveGCityDishHand} />
-                <span className='underlay-text'>{t.underlay2}</span>
-                <img className='underlay-pic' src={pix.worldInHands} />
-                <span className='underlay-text'>{t.underlay3}</span>
-                <img className='underlay-pic' src={pix.handMap3} />
-                <span className='underlay-text'>{t.underlay4}</span>
-                <img className='underlay-pic' src={pix.handPlant} />
-            </div>  
-            {isPortalModalOpen && (
-                <>
-                    <div id='blackBackground' />
-                    <div id='portalModal'>
-                        <label id='portalPwdPrompt'>{t.pwdPrompt}</label>
-                        <input 
-                            id='pwdInput' 
-                            type='password'
-                            value={pwdField}
-                            placeholder={t.placeholder}
-                            onChange={e => setPwdField(e.target.value)} 
-                        />
-                        {isWarningVisible && <span id='pwdWarning'>{t.warning}</span>}
-                        <section id='pwdButtons'>
-                            <button id='pwdSubmit' onClick={onSubmit}>{t.submit}</button>
-                            <button id='pwdCancel' onClick={onCancel}>{t.cancel}</button>
-                        </section>
-                    </div>
-                </>
-            )}
-
-            <section id='missionStatement'>
-                <div id='missionStatementLeft'>
-                    <h2 id='whoWeAre' className='home-sub-header'>{t.whoWeAre}</h2>
-                    <img id='treeVectors' src={pix.treeVectors} />
+const Home = ({ history }) => 
+    <main id='homePage'>
+        <Parallax 
+            id='parallax' 
+            blur={1} 
+            bgImage={pix.blurryIntersection5} 
+            bgImageAlt='background' 
+            strength={250}
+        >
+            <section id='splashTop'>
+                <header id='homeHeader'>{t.header}</header>
+                <div id='logoBlackWrapper'>
+                    <img id='logoBlack' src={pix.logoBlue} />
                 </div>
-                <div id='missionStatementCenter'>
+                <span 
+                    id='portalAccess'
+                    onClick={() => history.push(paths.portal)}>
+                    {t.portal}
+                </span>
+            </section>
+        </Parallax>
+        
+        <div id='underlayBar'>
+            <img className='underlay-pic' src={pix.fiveGBeachPic} />
+            <span className='underlay-text'>{t.underlay1}</span>
+            <img className='underlay-pic' src={pix.fiveGCityDishHand} />
+            <span className='underlay-text'>{t.underlay2}</span>
+            <img className='underlay-pic' src={pix.worldInHands} />
+            <span className='underlay-text'>{t.underlay3}</span>
+            <img className='underlay-pic' src={pix.handMap3} />
+            <span className='underlay-text'>{t.underlay4}</span>
+            <img className='underlay-pic' src={pix.handPlant} />
+        </div>  
+
+        <section id='missionStatement'>
+            <div id='missionStatementLeft'>
+                <h2 id='whoWeAre' className='home-sub-header'>{t.whoWeAre}</h2>
+                <img id='treeVectors' src={pix.treeVectors} />
+            </div>
+            <div id='missionStatementCenter'>
+                <div>
                     <div>
-                        <div>
-                            <b className='myriad-bold'>{t.mission1}</b> {t.mission2}
-                            <br/><br/>{t.mission3}<br/><br/>
-                        </div>
-                        <span id='community' className='myriad-bold'>{t.mission4}</span>
-                        <img id='missionStatementUnderlines' src={pix.underlines} />
+                        <b className='myriad-bold'>{t.mission1}</b> {t.mission2}
+                        <br/><br/>{t.mission3}<br/><br/>
                     </div>
+                    <span id='community' className='myriad-bold'>{t.mission4}</span>
+                    <img id='missionStatementUnderlines' src={pix.underlines} />
                 </div>
-                <div id='missionStatementRight'>
-                    <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />
-                    <img id='blurryIntersection1' className='about-pix' src={pix.blurryIntersection1} />
-                    <img id='niceWalkway' className='about-pix' src={pix.niceWalkway} />
-                </div>
-            </section>
+            </div>
+            <div id='missionStatementRight'>
+                <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />
+                <img id='gear1' className='gear' src={pix.gear} />
+                <img id='blurryIntersection1' className='about-pix' src={pix.blurryIntersection1} />
+                <img id='gear2' className='gear' src={pix.gear} />
+                <img id='niceWalkway' className='about-pix' src={pix.niceWalkway} />
+                <img id='gear3' className='gear' src={pix.gear} />
+            </div>
+        </section>
 
-            <section id='whatWeDo' className='home-section'>
-                <h2 id='whatWeDoHeader' className='home-sub-header'>{t.whatWeDoHeader}</h2>
-                <div id='whatWeDoContentWrapper'>
-                    <p id='whatWeDoContent'>{t.whatWeDoContent}</p>
-                    <img id='whatWeDoIcon' src={pix.networkIcon1} />
-                </div>
-            </section>
+        <section id='whatWeDo' className='home-section'>
+            <h2 id='whatWeDoHeader' className='home-sub-header'>{t.whatWeDoHeader}</h2>
+            <div id='whatWeDoContentWrapper'>
+                <p id='whatWeDoContent'>{t.whatWeDoContent}</p>
+                <img id='whatWeDoIcon' src={pix.networkIcon1} />
+            </div>
+        </section>
 
-            <section id='whyWereHere' className='home-section'>
-                <h2 id='whyWereHereHeader' className='home-sub-header'>{t.whyWereHereHeader}</h2>
-                <p id='whyWereHereContent1'>{t.whyWereHereContent1}</p>
-                <img id='communityVector' src={pix.communityVector} />
-                <p id='whyWereHereContent2'>{t.whyWereHereContent2}</p>
-            </section>
+        <section id='whyWereHere' className='home-section'>
+            <h2 id='whyWereHereHeader' className='home-sub-header'>{t.whyWereHereHeader}</h2>
+            <p id='whyWereHereContent1'>{t.whyWereHereContent1}</p>
+            <img id='communityVector' src={pix.communityVector} />
+            <p id='whyWereHereContent2'>{t.whyWereHereContent2}</p>
+        </section>
 
-            <section id='explore'>
-                <Link to={paths.vision} className='home-link'>{t.vision}</Link>
-                <Link to={paths.partners} className='home-link'>{t.partners}</Link>
-                <Link to={paths.contact} className='home-link'>{t.contact}</Link>
-            </section>
-        </main>
-    )
-}
+        <section id='explore'>
+            <Link to={paths.vision} className='home-link'>{t.vision}</Link>
+            <Link to={paths.partners} className='home-link'>{t.partners}</Link>
+            <Link to={paths.contact} className='home-link'>{t.contact}</Link>
+        </section>
+    </main>
 
 export default withRouter(Home)
