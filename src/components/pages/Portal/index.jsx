@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
+import { withRouter } from "react-router"
+
 import * as docs from '../../../assets/docs'
 import * as pix from '../../../assets/pix'
-import { portalPwd } from '../../../constants'
+import { paths, portalPwd } from '../../../constants'
 import './styles.css'
 
 const t = {
@@ -14,7 +16,7 @@ const t = {
     placeholder: 'enter password here'
 }
 
-const Portal = () => {
+const Portal = ({ history }) => {
     const [hasPortalAccess, setHasPortalAccess] = useState(false)
     const [showIFrame, setShowIFrame] = useState(false)
     const [isWarningVisible, setIsWarningVisible] = useState(false)
@@ -33,6 +35,7 @@ const Portal = () => {
         setPwdField('')
         setHasPortalAccess(false)
         setIsWarningVisible(false)
+        history.push(paths.home)
     }
     return (
         <main id='portalPage'>
@@ -69,4 +72,4 @@ const Portal = () => {
     )
 }
         
-export default Portal
+export default withRouter(Portal)
