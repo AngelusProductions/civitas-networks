@@ -18,5 +18,6 @@ export default () =>
       <Route component={Partners} path={paths.partners}/>
       <Route component={Contact} path={paths.contact}/>
       <Route component={Portal} path={paths.portal}/>
-    </Layout>
+      <Route component={Home}/>
+    </Layout> 
   </BrowserRouter>

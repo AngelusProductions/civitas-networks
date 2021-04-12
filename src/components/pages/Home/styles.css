@@ -14,7 +14,7 @@
 }
 
 #logoBlackWrapper {
-  animation: ease-in-out Float 5000ms 750ms infinite;
+  /* animation: ease-in-out Float 5000ms 750ms infinite; */
 }
 
 #portalAccess {
@@ -99,7 +99,7 @@
   border: 1px solid #fff;
   border-radius: 50%;
   filter: drop-shadow(0 6px 6px #1d68a0);
-  animation: ease-in-out UnderlayChaining 3000ms infinite;
+  /* animation: ease-in-out UnderlayChaining 3000ms infinite; */
 }
 .underlay-pic:nth-of-type(2) {
   animation-delay: 150ms;
