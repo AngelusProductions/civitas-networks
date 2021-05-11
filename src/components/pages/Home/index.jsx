@@ -80,11 +80,8 @@ const Home = ({ history }) =>
             </div>
             <div id='missionStatementRight'>
                 <img id='cityObelisk' className='about-pix' src={pix.cityObelisk} />
-                <img id='gear1' className='gear' src={pix.gear} />
                 <img id='blurryIntersection1' className='about-pix' src={pix.blurryIntersection1} />
-                <img id='gear2' className='gear' src={pix.gear} />
                 <img id='niceWalkway' className='about-pix' src={pix.niceWalkway} />
-                <img id='gear3' className='gear' src={pix.gear} />
             </div>
         </section>
 

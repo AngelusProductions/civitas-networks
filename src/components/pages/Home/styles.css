@@ -90,6 +90,7 @@
   border-bottom: 1px solid #f4f0fff5;
   box-shadow: inset 0px -4px 8px 4px #0397463b;
   min-height: 207px;
+  overflow: hidden;
 }
 
 .underlay-pic {
@@ -378,3 +379,62 @@
     border-bottom: 3px double #6698be;
   }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #logoBlack {
+    height: 25vh;
+    margin-top: 33%;
+  }
+  
+  #underlayBar {
+    justify-content: space-around;
+  }
+  
+  .underlay-pic {
+    display: none;
+  }
+  .underlay-pic:nth-child(3) {
+    display: flex !important;
+  }
+
+  .underlay-text {
+    display: none;
+  }
+
+  .underlay-text:nth-child(2) {
+    display: flex !important;
+    font-size: 8.5vw;
+  }
+
+  #homeHeader {
+    font-size: 5vw;
+    line-height: 2rem;
+    padding: 0.6rem 1rem 0.3rem;
+  }
+
+  #portalAccess {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }   
+
+  #treeVectors,
+  #missionStatementRight{
+    display: none;
+  }
+
+  #missionStatement {
+    height: unset;
+    flex-direction: column;
+    min-width: unset;
+  }
+
+  #missionStatementCenter {
+    font-size: 2.3rem;
+    width: 100%;
+}
+
+#whatWeDoContentWrapper {
+  flex-direction: column;
+}
+}
+

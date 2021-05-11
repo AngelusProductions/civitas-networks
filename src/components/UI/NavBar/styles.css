@@ -36,3 +36,27 @@
 #navBar a:active {
   transform: scale(0.9);
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #navBar {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    top: 1rem;
+    right: unset;
+    text-align: center;
+    justify-content: space-around;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    width: unset;
+  }
+  
+  #navBar a {
+    padding: 0.7rem 1rem;
+    margin: 0.4rem;
+    width: 11rem;
+    height: 2.7rem;
+  } 
+}
