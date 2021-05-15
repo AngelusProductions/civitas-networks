@@ -45,7 +45,7 @@
 #homeHeader {
   font-family: 'Myriad-Pro-Bold';
   color: white;
-  position: fixed;
+  position: absolute;
   bottom: 8rem;
   left: 10vw;
   font-size: 2vw;
@@ -424,17 +424,17 @@
 
   #missionStatement {
     height: unset;
-    flex-direction: column;
+    flex-direction: colmn;
     min-width: unset;
   }
 
   #missionStatementCenter {
     font-size: 2.3rem;
     width: 100%;
-}
+  }
 
-#whatWeDoContentWrapper {
-  flex-direction: column;
-}
+  #whatWeDoContentWrapper {
+    flex-direction: column;
+  }
 }
 
