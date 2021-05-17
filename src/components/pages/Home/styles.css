@@ -388,22 +388,19 @@
   
   #underlayBar {
     justify-content: space-around;
+    min-height: unset;
+    height: 5vh;
   }
   
   .underlay-pic {
     display: none;
   }
-  .underlay-pic:nth-child(3) {
-    display: flex !important;
-  }
-
   .underlay-text {
     display: none;
   }
 
-  .underlay-text:nth-child(2) {
-    display: flex !important;
-    font-size: 8.5vw;
+  .home-sub-header {
+    font-size: 3rem;
   }
 
   #homeHeader {
@@ -424,7 +421,7 @@
 
   #missionStatement {
     height: unset;
-    flex-direction: colmn;
+    flex-direction: column;
     min-width: unset;
   }
 
@@ -436,5 +433,35 @@
   #whatWeDoContentWrapper {
     flex-direction: column;
   }
+
+  #whatWeDoContent {
+    margin: 1rem 0rem;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+  }
+
+  #whatWeDoIcon {
+    height: 6rem;
+    align-self: flex-start;
+    filter: opacity(0.2);
+  }
+
+  #whyWereHere p {
+    margin: 1rem 0;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+  }
+
+  #explore {
+    flex-direction: column;
+    align-items: center;
+}
+.home-link {
+  padding: 1rem;
+  font-size: 5.2vw;
+  width: 66vw;
+  margin: 0.5rem 0;
+  text-align: center;
+}
 }
 
