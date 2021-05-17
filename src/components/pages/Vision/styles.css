@@ -1,5 +1,4 @@
 #visionPage {
-    min-width: 100rem;
     background: linear-gradient(
         100deg
         , white 79%, rgb(143 196 177) 79%, white 80%, rgb(29 104 160) 80%, rgba(255,255,255,1) 95%);
@@ -14,6 +13,7 @@
     border: solid 1px #8fc4b1;
     border-top: none;
     border-left: none;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 #visionHeaderWrapper {
@@ -33,4 +33,23 @@
     font-family: 'proxima-nova';
     text-transform: lowercase;
     font-weight: bold;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #visionPage {
+        background: linear-gradient( 
+    100deg
+     , white 79%, rgb(143 196 177 / 36%) 79%, white 80%, rgb(29 104 160 / 31%) 80%, rgba(255,255,255,1) 95%);
+    }
+    
+    #visionVector {
+        width: 12rem;
+    }
+    #visionHeader {
+        color: white;
+        font-size: 6rem;
+        padding: 12.5vh 0 0rem;
+        text-align: center;
+        padding-left: unset;
+    }
 }

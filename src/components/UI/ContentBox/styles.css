@@ -49,3 +49,23 @@
     border-radius: 50%;
     filter: drop-shadow(6px 4px 5px #17ac6c);
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .content-box-section {
+        padding: 0;
+        width: 90vw;
+    }
+
+    .content-box-content {
+        font-size: 1.3rem;
+    }
+
+    .content-box-title {
+        font-size: 1.6rem;
+    }
+
+    .content-box-pix {
+        width: 8rem;
+        transform: translate(-0.5rem, -4rem);
+    }
+}
