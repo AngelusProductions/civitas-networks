@@ -42,3 +42,23 @@
     justify-content: space-evenly;
     height: 100%;
 }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #partnersPage {
+        height: unset;
+    }
+    
+    #partnersHeader {
+        font-size: 3.1rem;
+        font-family: 'proxima-nova';
+        width: 100%;
+        padding-top: 17vh;
+        height: 24vh;
+        min-width: unset;
+    }
+
+    #partnersList {
+        flex-direction: column;
+    }
+}

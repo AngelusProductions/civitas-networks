@@ -160,4 +160,14 @@
     width: 90vw;
     min-width: unset;
   }
+
+  #portalHeader {
+    font-size: 1.3rem;
+    top: 18vh;
+    padding: 2rem;
+  }
+
+  #portalBackground {
+    width: 100vw;
+  }
 }
